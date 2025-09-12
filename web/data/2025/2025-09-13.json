@@ -1,0 +1,442 @@
+{
+  "generatedAt": "2025-09-11T22:33:17.670Z",
+  "week": "2025-09-13",
+  "sources": {
+    "netkeibaCalendar": "https://race.netkeiba.com/top/calendar.html",
+    "jraCalendar": "https://www.jra.go.jp/keiba/calendar/"
+  },
+  "races": [
+    {
+      "raceId": "20250913NAKAYAMA01",
+      "date": "2025-09-13",
+      "course": "中山",
+      "grade": null,
+      "name": "ダミーレース 1",
+      "distance": 1600,
+      "surface": "芝",
+      "turn": "右",
+      "entries": [
+        {
+          "horseId": "h_20250913NAKAYAMA01_1",
+          "horseNumber": 1,
+          "name": "ホース1",
+          "sexAge": "牡3",
+          "jockey": "騎手1",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.78,
+          "predictionRank": 5
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_2",
+          "horseNumber": 2,
+          "name": "ホース2",
+          "sexAge": "牡3",
+          "jockey": "騎手2",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.11,
+          "predictionRank": 7
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_3",
+          "horseNumber": 3,
+          "name": "ホース3",
+          "sexAge": "牡3",
+          "jockey": "騎手3",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.89,
+          "predictionRank": 2
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_4",
+          "horseNumber": 4,
+          "name": "ホース4",
+          "sexAge": "牡3",
+          "jockey": "騎手4",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.86,
+          "predictionRank": 3
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_5",
+          "horseNumber": 5,
+          "name": "ホース5",
+          "sexAge": "牡3",
+          "jockey": "騎手5",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.03,
+          "predictionRank": 8
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_6",
+          "horseNumber": 6,
+          "name": "ホース6",
+          "sexAge": "牡3",
+          "jockey": "騎手6",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.82,
+          "predictionRank": 4
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_7",
+          "horseNumber": 7,
+          "name": "ホース7",
+          "sexAge": "牡3",
+          "jockey": "騎手7",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.92,
+          "predictionRank": 1
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA01_8",
+          "horseNumber": 8,
+          "name": "ホース8",
+          "sexAge": "牡3",
+          "jockey": "騎手8",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.17,
+          "predictionRank": 6
+        }
+      ]
+    },
+    {
+      "raceId": "20250913NAKAYAMA02",
+      "date": "2025-09-13",
+      "course": "中山",
+      "grade": null,
+      "name": "ダミーレース 2",
+      "distance": 1600,
+      "surface": "芝",
+      "turn": "右",
+      "entries": [
+        {
+          "horseId": "h_20250913NAKAYAMA02_1",
+          "horseNumber": 1,
+          "name": "ホース1",
+          "sexAge": "牡3",
+          "jockey": "騎手1",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.31,
+          "predictionRank": 8
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_2",
+          "horseNumber": 2,
+          "name": "ホース2",
+          "sexAge": "牡3",
+          "jockey": "騎手2",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.63,
+          "predictionRank": 3
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_3",
+          "horseNumber": 3,
+          "name": "ホース3",
+          "sexAge": "牡3",
+          "jockey": "騎手3",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.99,
+          "predictionRank": 2
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_4",
+          "horseNumber": 4,
+          "name": "ホース4",
+          "sexAge": "牡3",
+          "jockey": "騎手4",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.44,
+          "predictionRank": 6
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_5",
+          "horseNumber": 5,
+          "name": "ホース5",
+          "sexAge": "牡3",
+          "jockey": "騎手5",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.52,
+          "predictionRank": 5
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_6",
+          "horseNumber": 6,
+          "name": "ホース6",
+          "sexAge": "牡3",
+          "jockey": "騎手6",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 1,
+          "predictionRank": 1
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_7",
+          "horseNumber": 7,
+          "name": "ホース7",
+          "sexAge": "牡3",
+          "jockey": "騎手7",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.56,
+          "predictionRank": 4
+        },
+        {
+          "horseId": "h_20250913NAKAYAMA02_8",
+          "horseNumber": 8,
+          "name": "ホース8",
+          "sexAge": "牡3",
+          "jockey": "騎手8",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.39,
+          "predictionRank": 7
+        }
+      ]
+    },
+    {
+      "raceId": "20250914NAKAYAMA01",
+      "date": "2025-09-14",
+      "course": "中山",
+      "grade": null,
+      "name": "ダミーレース 1",
+      "distance": 1600,
+      "surface": "芝",
+      "turn": "右",
+      "entries": [
+        {
+          "horseId": "h_20250914NAKAYAMA01_1",
+          "horseNumber": 1,
+          "name": "ホース1",
+          "sexAge": "牡3",
+          "jockey": "騎手1",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.99,
+          "predictionRank": 2
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_2",
+          "horseNumber": 2,
+          "name": "ホース2",
+          "sexAge": "牡3",
+          "jockey": "騎手2",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.41,
+          "predictionRank": 8
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_3",
+          "horseNumber": 3,
+          "name": "ホース3",
+          "sexAge": "牡3",
+          "jockey": "騎手3",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.55,
+          "predictionRank": 5
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_4",
+          "horseNumber": 4,
+          "name": "ホース4",
+          "sexAge": "牡3",
+          "jockey": "騎手4",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 1,
+          "predictionRank": 1
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_5",
+          "horseNumber": 5,
+          "name": "ホース5",
+          "sexAge": "牡3",
+          "jockey": "騎手5",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.53,
+          "predictionRank": 6
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_6",
+          "horseNumber": 6,
+          "name": "ホース6",
+          "sexAge": "牡3",
+          "jockey": "騎手6",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.42,
+          "predictionRank": 7
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_7",
+          "horseNumber": 7,
+          "name": "ホース7",
+          "sexAge": "牡3",
+          "jockey": "騎手7",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.99,
+          "predictionRank": 3
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA01_8",
+          "horseNumber": 8,
+          "name": "ホース8",
+          "sexAge": "牡3",
+          "jockey": "騎手8",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.65,
+          "predictionRank": 4
+        }
+      ]
+    },
+    {
+      "raceId": "20250914NAKAYAMA02",
+      "date": "2025-09-14",
+      "course": "中山",
+      "grade": null,
+      "name": "ダミーレース 2",
+      "distance": 1600,
+      "surface": "芝",
+      "turn": "右",
+      "entries": [
+        {
+          "horseId": "h_20250914NAKAYAMA02_1",
+          "horseNumber": 1,
+          "name": "ホース1",
+          "sexAge": "牡3",
+          "jockey": "騎手1",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.75,
+          "predictionRank": 5
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_2",
+          "horseNumber": 2,
+          "name": "ホース2",
+          "sexAge": "牡3",
+          "jockey": "騎手2",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.15,
+          "predictionRank": 6
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_3",
+          "horseNumber": 3,
+          "name": "ホース3",
+          "sexAge": "牡3",
+          "jockey": "騎手3",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.91,
+          "predictionRank": 1
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_4",
+          "horseNumber": 4,
+          "name": "ホース4",
+          "sexAge": "牡3",
+          "jockey": "騎手4",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.84,
+          "predictionRank": 4
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_5",
+          "horseNumber": 5,
+          "name": "ホース5",
+          "sexAge": "牡3",
+          "jockey": "騎手5",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.01,
+          "predictionRank": 8
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_6",
+          "horseNumber": 6,
+          "name": "ホース6",
+          "sexAge": "牡3",
+          "jockey": "騎手6",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.85,
+          "predictionRank": 3
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_7",
+          "horseNumber": 7,
+          "name": "ホース7",
+          "sexAge": "牡3",
+          "jockey": "騎手7",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.9,
+          "predictionRank": 2
+        },
+        {
+          "horseId": "h_20250914NAKAYAMA02_8",
+          "horseNumber": 8,
+          "name": "ホース8",
+          "sexAge": "牡3",
+          "jockey": "騎手8",
+          "weight": 56,
+          "odds": null,
+          "popularity": null,
+          "predictionScore": 0.13,
+          "predictionRank": 7
+        }
+      ]
+    }
+  ]
+}
