@@ -1,6 +1,6 @@
 # HorseRacingFather
 
-今週のJRAレースを取得し、簡易予想とともに表示する静的サイト。GitHub Pagesに自動デプロイ、金曜夜(JST)にデータ自動更新。
+レースを取得し、簡易予想とともに表示する静的サイト。GitHub Pagesに自動デプロイ、金曜夜(JST)にデータ自動更新。
 
 ## セットアップ
 
@@ -30,4 +30,3 @@ npm run build
 ## 参考リンク
 
 - netkeiba カレンダー: [https://race.netkeiba.com/top/calendar.html](https://race.netkeiba.com/top/calendar.html)
-- JRA カレンダー: [https://www.jra.go.jp/keiba/calendar/](https://www.jra.go.jp/keiba/calendar/)

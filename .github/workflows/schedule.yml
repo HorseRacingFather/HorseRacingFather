@@ -1,8 +1,8 @@
-name: Weekly Data Fetch (Fri 21:00 JST)
+name: Weekly Data Fetch (Sat 06:00 JST)
 
 on:
   schedule:
-    - cron: '0 12 * * FRI' # 21:00 JST (UTC+9)
+    - cron: '0 21 * * FRI' # 21:00 UTC = Sat 06:00 JST
   workflow_dispatch:
 
 permissions:

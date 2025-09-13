@@ -11,6 +11,12 @@ type Entry = {
   popularity: number | null
   predictionScore: number
   predictionRank?: number
+  horseDbUrl?: string
+  horseBrief?: {
+    lastResultDate?: string
+    lastResultName?: string
+    lastFinish?: string
+  }
 }
 
 type Race = {
@@ -22,6 +28,8 @@ type Race = {
   distance: number
   surface: string
   turn: string
+  going?: string | null
+  sources?: { sp?: string; pc?: string }
   entries: Entry[]
 }
 
@@ -64,15 +72,16 @@ function useWeeklyData() {
         const satMinus1 = (() => { const d = new Date(sat); d.setDate(d.getDate()-1); return fmt(d) })()
         const satPlus1  = (() => { const d = new Date(sat); d.setDate(d.getDate()+1); return fmt(d) })()
 
-        const withBase = (d: string) => `${base}data/${yyyy}/${d}.json`
-        const absRoot  = (d: string) => `/data/${yyyy}/${d}.json`
-        const relRoot  = (d: string) => `data/${yyyy}/${d}.json`
+        const originAbs = (path: string) => new URL(path, window.location.origin).toString()
+        const withBase = (d: string) => originAbs(`${base}data/${yyyy}/${d}.json`)
+        const absRoot  = (d: string) => originAbs(`/data/${yyyy}/${d}.json`)
+        const current  = originAbs(`/data/current.json`)
 
-        const prodOrder = [withBase, absRoot, relRoot]
-        const devOrder  = [absRoot, relRoot, withBase]
-        const order = isDev ? devOrder : prodOrder
+        // dev: 絶対 /data を優先、本番: base 付きを優先
+        const order = isDev ? [absRoot, withBase] : [withBase, absRoot]
 
         const candidates = dedupe([
+          current,
           ...[today, saturday, satMinus1, satPlus1].flatMap((d) => order.map((f) => f(d))),
         ])
 
@@ -97,13 +106,13 @@ async function fetchJsonFromCandidates<T>(urls: string[]): Promise<T> {
         tried.push(`${url} [${res.status}]`)
         continue
       }
-      const ct = res.headers.get('content-type') || ''
-      if (!ct.includes('application/json')) {
-        // JSONではない（HTMLが返っている等）
-        tried.push(`${url} [${ct}]`)
+      // Content-Typeに依存せずまずJSONとして解釈を試みる（開発サーバでtext/plainの場合がある）
+      try {
+        return (await res.json()) as T
+      } catch (e) {
+        tried.push(`${url} [invalid JSON]`)
         continue
       }
-      return (await res.json()) as T
     } catch (err) {
       tried.push(`${url} [exception]`)
       continue
@@ -141,7 +150,7 @@ function App() {
         <div className="mt-4 inline-flex items-center gap-2 rounded-md bg-slate-100 dark:bg-slate-800 p-1">
           {([
             ['number', '馬番順'],
-            ['prediction', '予想順'],
+            ['prediction', '予想勝率順'],
             ['popularity', '人気順'],
           ] as const).map(([k, label]) => (
             <button
@@ -162,28 +171,41 @@ function App() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {races.map((race) => (
                 <article key={race.raceId} className="rounded-lg border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 backdrop-blur p-4 shadow-sm">
-                  <h3 className="font-semibold">
-                    {race.name || '一般'} <span className="text-xs text-slate-500">{race.grade ?? ''}</span>
-                  </h3>
-                  <p className="text-xs text-slate-500">{race.surface}{race.distance}m / {race.turn}</p>
+                  <div className="flex items-center">
+                    <h3 className="font-semibold text-sm sm:text-base">{formatRaceHeader(race)}</h3>
+                    {race.sources?.sp && (
+                      <a href={race.sources.sp} target="_blank" rel="noreferrer" className="ml-auto text-xs text-blue-600 hover:underline">netkeiba</a>
+                    )}
+                  </div>
                   <table className="w-full mt-3 text-sm">
                     <thead>
                       <tr className="text-left text-slate-500">
                         <th className="py-1 w-12">馬番</th>
                         <th className="py-1">馬名</th>
-                        <th className="py-1 w-16 text-right">予想</th>
+                        <th className="py-1 w-24 text-right">予想勝率(%)</th>
                         <th className="py-1 w-16 text-right">人気</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {sortEntries(race.entries, sort).map((e) => (
+                      {sortEntriesWithProb(race.entries, sort).map((e) => (
                         <tr key={e.horseId} className="border-t border-slate-100 dark:border-slate-700">
                           <td className="py-1">{e.horseNumber}</td>
                           <td className="py-1">
-                            <div className="font-medium">{e.name}</div>
-                            <div className="text-xs text-slate-500">{e.sexAge} / {e.jockey} / {e.weight}kg</div>
+                            <div className="font-medium">
+                              {e.horseDbUrl ? (
+                                <a href={e.horseDbUrl} target="_blank" rel="noreferrer" className="hover:underline">{e.name}</a>
+                              ) : e.name}
+                            </div>
+                            <div className="text-xs text-slate-500">
+                              {e.sexAge} / {e.jockey} / {e.weight}kg
+                              {e.horseBrief?.lastResultName && (
+                                <>
+                                  {' '}· 最終: {e.horseBrief.lastResultDate ?? ''} {e.horseBrief.lastResultName} {e.horseBrief.lastFinish ? `${e.horseBrief.lastFinish}着` : ''}
+                                </>
+                              )}
+                            </div>
                           </td>
-                          <td className="py-1 text-right">{e.predictionScore?.toFixed(2)}</td>
+                          <td className="py-1 text-right">{formatProb(percentProb(race.entries, e.horseId))}</td>
                           <td className="py-1 text-right">{e.popularity ?? '-'}</td>
                         </tr>
                       ))}
@@ -219,3 +241,42 @@ function sortEntries(entries: Entry[], key: SortKey): Entry[] {
 }
 
 export default App
+
+function getRaceNo(raceId: string): number {
+  const n = Number(raceId.slice(-2))
+  return Number.isFinite(n) ? n : 0
+}
+
+function formatRaceHeader(race: Race): string {
+  const left = `${race.course} 第${getRaceNo(race.raceId)}R`
+  const distance = race.distance ? `${race.distance}m` : ''
+  const turn = race.turn || ''
+  const surface = race.surface || ''
+  const right = [surface, distance, turn].filter(Boolean).join('')
+  return right ? `${left}（${right}）` : left
+}
+
+function percentProb(entries: Entry[], horseId: string): number {
+  const sum = entries.reduce((s, e) => s + Math.max(0, e.predictionScore || 0), 0)
+  if (!sum) return 0
+  const e = entries.find((x) => x.horseId === horseId)
+  if (!e) return 0
+  return (Math.max(0, e.predictionScore || 0) / sum) * 100
+}
+
+function formatProb(p: number): string {
+  return p.toFixed(1)
+}
+
+function sortEntriesWithProb(entries: Entry[], key: SortKey): Entry[] {
+  if (key !== 'prediction') return sortEntries(entries, key)
+  const sum = entries.reduce((s, e) => s + Math.max(0, e.predictionScore || 0), 0)
+  if (!sum) return sortEntries(entries, 'number')
+  const arr = [...entries]
+  return arr.sort((a, b) => {
+    const pa = Math.max(0, a.predictionScore || 0) / sum
+    const pb = Math.max(0, b.predictionScore || 0) / sum
+    if (pb !== pa) return pb - pa
+    return a.horseNumber - b.horseNumber
+  })
+}
