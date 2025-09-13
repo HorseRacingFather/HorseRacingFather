@@ -15,6 +15,16 @@ const DATA_DIR = path.join(ROOT, 'public', 'data')
 const NETKEIBA_CALENDAR = 'https://race.netkeiba.com/top/calendar.html'
 
 
+function envLimitToInt(envVal?: string): number | null {
+  if (envVal == null) return null
+  const s = envVal.trim().toLowerCase()
+  if (s === '' || s === 'all') return null
+  const n = Number.parseInt(s, 10)
+  if (!Number.isFinite(n) || n <= 0) return null
+  return n
+}
+
+
 function getTargetWeekend(today = dayjs()): { saturday: dayjs.Dayjs; sunday: dayjs.Dayjs } {
   const day = today.day() // 0 Sun ... 6 Sat
   const satOffset = (6 - day + 7) % 7
@@ -30,6 +40,7 @@ async function collectRaces(): Promise<any[]> {
   const { saturday, sunday } = getTargetWeekend()
   const raceDays = [saturday, sunday]
   const allRaces: any[] = []
+  const limitPerDay = envLimitToInt(process.env.RACE_LIMIT_PER_DAY)
 
   for (const d of raceDays) {
     const ymd = d.format('YYYYMMDD')
@@ -53,7 +64,7 @@ async function collectRaces(): Promise<any[]> {
           allRaces.push(race)
           dayCount += 1
           processed += 1
-          if (processed >= 3) break
+          if (limitPerDay !== null && processed >= limitPerDay) break
         } catch (e) {
           // 個別レースの失敗はスキップ
           continue
