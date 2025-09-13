@@ -44,6 +44,48 @@ JSON オブジェクトのみ（キー: horseId, 値: 勝率 0–1 の小数、4
 """
 
 
+def _safe_mkdirs(path: str) -> None:
+    try:
+        os.makedirs(path, exist_ok=True)
+    except Exception:
+        pass
+
+
+def _save_prompt_and_answer(
+    race_id: Optional[str],
+    prompt: str,
+    raw_answer: Dict[str, float],
+    normalized_answer: Dict[str, float],
+) -> None:
+    """プロンプトと回答を JSON で保存（失敗は無視）。
+
+    保存先:
+      - PREDICT_LOG_DIR 環境変数があればそのディレクトリ
+      - なければ `../debug/predict_logs/<YYYYMMDD>/<timestamp>_<raceId>.json`
+    """
+    try:
+        base_dir = os.environ.get("PREDICT_LOG_DIR")
+        if not base_dir:
+            base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "debug", "predict_logs"))
+        date_str = datetime.utcnow().strftime("%Y%m%d")
+        ts_str = datetime.utcnow().strftime("%Y%m%dT%H%M%S")
+        _safe_mkdirs(os.path.join(base_dir, date_str))
+        safe_race = re.sub(r"[^0-9A-Za-z_-]", "_", race_id or "unknown")
+        out_path = os.path.join(base_dir, date_str, f"{ts_str}_{safe_race}.json")
+        payload = {
+            "timestamp": ts_str + "Z",
+            "raceId": race_id,
+            "prompt": prompt,
+            "answerRaw": raw_answer,
+            "answerNormalized": normalized_answer,
+        }
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+    except Exception:
+        # ログ保存の失敗は無視
+        pass
+
+
 def _env_limit_to_int(env_val: Optional[str]) -> Optional[int]:
     """
     環境変数の値を件数上限に変換。
@@ -62,8 +104,8 @@ def _env_limit_to_int(env_val: Optional[str]) -> Optional[int]:
         return None
 
 
-HORSE_RESULTS_LIMIT = 50
-HORSE_RESULTS_PROMPT_LIMIT = 25
+HORSE_RESULTS_LIMIT = 20
+HORSE_RESULTS_PROMPT_LIMIT = 10
 
 
 def http_get(url: str, timeout: int = 20) -> str:
@@ -118,10 +160,17 @@ def parse_horse_recent_results(db_url: str, limit: Optional[int] = HORSE_RESULTS
                 m = re.search(pattern, text)
                 return m.group(1) if m else None
 
-            # リンクで取れるもの
+            # リンク/列から取れるもの
             a_race = tr.find("a", href=re.compile(r"/race/"))
             a_date = tr.find("a", href=re.compile(r"/race/list/"))
-            race_name = _norm_ws(a_race.get_text(strip=True)) if a_race else None
+            # レース名は5列目（cols[4]）優先。空ならリンクテキストにフォールバック
+            race_name = None
+            if len(cols) >= 5:
+                candidate_race = _norm_ws(cols[4])
+                if candidate_race:
+                    race_name = candidate_race
+            if not race_name and a_race:
+                race_name = _norm_ws(a_race.get_text(strip=True))
             date_text = _norm_ws(a_date.get_text(strip=True)) if a_date else None
 
             # 仕上げ: 代表値は行中からパターン抽出
@@ -398,13 +447,13 @@ def main():
         print(f"Prompt:\n{prompt}")
 
         try:
-            probs = call_chatgpt(prompt)
+            probs_raw = call_chatgpt(prompt)
         except Exception:
             # 失敗時は一様分布
-            probs = {e.get("horseId"): 1.0 for e in entries}
+            probs_raw = {e.get("horseId"): 1.0 for e in entries}
 
         # 正規化して entries へ勝率を反映（0〜1）
-        probs = normalize_probs(probs)
+        probs = normalize_probs(probs_raw)
         merged_entries2 = []
         for e in enriched_entries:
             hid = e.get("horseId")
@@ -418,6 +467,8 @@ def main():
         merged_races.append(m_race)
 
         print(f"Probs: {probs}")
+        # ログ保存（失敗は無視）
+        _save_prompt_and_answer(race_id, prompt, probs_raw, probs)
 
     # 予想をマージ済みの完全データを public/data に出力
     out = dict(src)
