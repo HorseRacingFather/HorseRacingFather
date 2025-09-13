@@ -22,18 +22,19 @@ export type Race = {
   course: string
   grade: string | null
   name: string
-  distance: number | null
-  surface: string | null
-  turn: string | null
+  distance: number
+  surface: string
+  turn: string
   going?: string | null
   sources?: { sp?: string; pc?: string }
   entries: Entry[]
 }
 
-export type WeekPayload = {
+export type Data = {
   generatedAt: string
   week: string
-  sources: { netkeibaCalendar: string }
   races: Race[]
 }
+
+export type SortKey = 'number' | 'prediction'
 

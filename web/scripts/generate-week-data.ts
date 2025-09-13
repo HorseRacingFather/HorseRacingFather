@@ -43,6 +43,7 @@ async function collectRaces(): Promise<any[]> {
       }
 
       let dayCount = 0
+      let processed = 0
       for (const shutubaUrl of raceLinks) {
         try {
           const race = await scrapeShutuba(shutubaUrl)
@@ -58,6 +59,8 @@ async function collectRaces(): Promise<any[]> {
           race.entries.forEach((e: any, idx: number) => (e.predictionRank = idx + 1))
           allRaces.push(race)
           dayCount += 1
+          processed += 1
+          if (processed >= 3) break
         } catch (e) {
           // 個別レースの失敗はスキップ
           continue
@@ -113,10 +116,12 @@ async function scrapeShutuba(url: string): Promise<any | null> {
     console.log(`[shutuba] rows=${rows.length} for race ${raceId}`)
   }
 
+  const seenNumbers = new Set<number>()
   for (const tr of rows) {
     const row = $(tr)
     const horseNumber = extractHorseNumber($, row)
     if (!Number.isFinite(horseNumber) || horseNumber <= 0) continue
+    if (seenNumbers.has(horseNumber)) continue
 
     // 馬名 + DBリンク
     const horseLink = row.find('dt.Horse.HorseLink a').first()
@@ -157,11 +162,11 @@ async function scrapeShutuba(url: string): Promise<any | null> {
       jockey,
       weight,
       odds: null,
-      popularity: null,
       predictionScore: 0,
       horseDbUrl,
       horseBrief,
     })
+    seenNumbers.add(horseNumber)
   }
 
   if (entries.length === 0) {

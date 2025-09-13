@@ -10,6 +10,7 @@
 
 html, body, #root {
   height: 100%;
+  width: 100%;
 }
 
 /* body の色は index.html の class で指定 */
@@ -34,10 +35,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {

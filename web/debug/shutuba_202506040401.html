@@ -7,7 +7,7 @@
 <head>
 <meta charset="EUC-JP">
 
-<!-- block=meta_tag_each_race (cp) -->
+<!-- block=meta_tag_each_race (cg) -->
 <meta http-equiv="content-language" content="ja">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.5, user-scalable=yes">
 
@@ -105,8 +105,8 @@
 <script src="https://cdn.netkeiba.com/img.sp/common/js/loadFif.js?ver=20240807"></script>
 
 
-
-<script>console.log('ad_head_shutuba_b');</script>
+<script>console.log('ad_head_shutuba_a');</script>
+<!-- ヘッダー -->
 <!-- GAMスクリプトの読み込み -->
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <!-- BID STRAPスクリプトの読み込み -->
@@ -151,6 +151,7 @@ googletag.cmd.push(function() {
 function randomInt(min, max) {
 return Math.floor( Math.random() * (max + 1 - min) ) + min;
 }
+googletag.defineSlot('/62532913,21246805/s_netkeiba_320x50_overlay-run_3130', [320, 50], 'div-gpt-ad-1664956146740-0').addService(googletag.pubads());
 googletag.defineSlot("/62532913,21246805/s_netkeiba_300x250_racepage3_3130", [[300,250],[336,280]], "div-gpt-ad-1594863053553-0").addService(googletag.pubads());
 googletag.pubads().setTargeting("fluct_ad_group", String(randomInt(1, 10)));
 googletag.pubads().enableSingleRequest();
@@ -169,11 +170,13 @@ window.gnshbrequest.registerPassback("1533128");
 window.gnshbrequest.registerPassback("1533130");
 window.gnshbrequest.registerPassback("1533132");
 window.gnshbrequest.registerPassback("1533131");
-window.gnshbrequest.registerPassback("1548289");
 window.gnshbrequest.forceInternalRequest();
 });
 </script>
 <script async src="https://cpt.geniee.jp/hb/v1/152121/570/wrapper.min.js"></script>
+<!-- /Geniee Wrapper Head Tag -->
+<!-- ここまで -->
+
 <script type="text/javascript">
 // $Id: race_common_js.html 16091 2018-04-26 01:21:19Z m-ashizawa $
 window.console = {};
@@ -225,10 +228,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- block=app_install (d) -->
 
 <link rel="stylesheet" href="https://cdn.netkeiba.com/img.sp//common/css/head_bnr.css?2018022002" />
-<div class="HeadBnrWrap" style="background-image:url(https://cdn.netkeiba.com/img.sp//common/img/head_bnr/cms/3047.jpg?v=MjAyNS0wOS0xMiAxMDowNDowMw==)">
+<div class="HeadBnrWrap" style="background-image:url(https://cdn.netkeiba.com/img.sp//common/img/head_bnr/cms/2976.jpg?v=MjAyNS0wOS0wNCAwODo1ODowMg==)">
 <div class="CampaignBox">
 <div class="CampaignVisual">
-<a href="https://netkeiba.onelink.me/cexk/ufjvz8mw" onclick="ga('send','event','bnr','click','app_iOS_inst',1);"><img src="https://cdn.netkeiba.com/img.sp//common/img/top/bnr_transprent_h155.png" alt="" width="100%"></a>
+<a href="https://netkeiba.onelink.me/cexk/6vaitckk" onclick="ga('send','event','bnr','click','app_iOS_inst',1);"><img src="https://cdn.netkeiba.com/img.sp//common/img/top/bnr_transprent_h155.png" alt="" width="100%"></a>
 
 
 </div>
@@ -525,7 +528,7 @@ duraAdFreq.freqCall("sp_nk_race_PMP_FR", "sp_nk_race_PMP", 23, 2, 24);
 
 
 <!-- race_title -->
-<!-- block=race_title (cp) -->
+<!-- block=race_title (cg) -->
 <div class="Race_Detail_Info_Btn fc">
 <div class="RaceChangeMenu_Group fc">
 <div class="Change_Btn_DayWrap">
@@ -1103,7 +1106,7 @@ $('#cboxOverlay').css('background', 'rgba(0, 0, 0, 0.4)');
 }
 });
 </script>
-<!-- block=race_navi (cp) -->
+<!-- block=race_navi (cg) -->
 <div class="RaceInfo_Navi">
 <ul class="RaceInfo_Tab fc">
 <li id="navi_shutuba"><a href="https://race.sp.netkeiba.com/race/shutuba.html?race_id=202506040401&amp;rf=race_toggle_menu"><span class="Icon_Sprite_Nk_New Icon_RaceInfo01"></span>出馬表</a></li>
@@ -1410,7 +1413,7 @@ var _action_api_url_change_session = 'https://race.sp.netkeiba.com';
 </script>
 <script type="text/javascript" src="https://cdn.netkeiba.com/img.racev4.sp/common/js/change_session.js?190920"></script>
 
-<!-- block=shutuba (cp) -->
+<!-- block=shutuba (cg) -->
 <style>
 .sort_icon { display:none; }
 th {
@@ -2464,7 +2467,7 @@ $("[class^='master_course_infoText'].AI_tenkai,[class^='master_course_infoLink']
 }
 });
 </script>
-<!-- block=race_expect (cp) -->
+<!-- block=race_expect (cg) -->
 <!-- レース展開予想 -->
 <script type="text/javascript" src="https://rcdn.netkeiba.com/img.sp/common/js/slick.min.js"></script>
 <section class="Sec_Deploy_Race">
@@ -2697,7 +2700,7 @@ $slider.slick('slickGoTo', parseInt(slideIndex));
 </script>
 <!-- block=ai_tenkai (cp) -->
 <div class="Race_Infomation_Box" id="ai_exception">障害レースは対象外となります。</div>
-<!-- block=top3data (cp) -->
+<!-- block=top3data (cg) -->
 <!-- 各データ上位3頭 -->
 <section class="">
 <div class="Title_Sec">
@@ -3020,9 +3023,9 @@ console.log('textStatus: %O',textStatus);
 <!-- block=advertisement_fluct (d) -->
 
 
-<!-- block=comment_new (cp) -->
+<!-- block=comment_new (cg) -->
 <!-- comment noting -->
-<!-- block=oikiri_new (cp) -->
+<!-- block=oikiri_new (cg) -->
 <section class="ShutubaTraningArea" >
 <div class="Title_Sec">
 <h2>調教タイム</h2>
@@ -3957,17 +3960,29 @@ $('.AppBannerIphone').show();
 <!-- block=advertisement_gam (d) -->
 
 
-
-<!-- Geniee Wrapper Body Tag 1548289 -->
-<div data-cptid="1548289" style="display: block;">
+<!-- 広告ユニット -->
+<!-- /62532913,21246805/s_netkeiba_320x50_overlay-run_3130 -->
+<div style="position: fixed; height: auto; bottom: 0; width: 100%; text-align: center; left: 0; z-index: 1500; padding-top: 3px;" class="bottom_ad">
+<span>
+<div id='div-gpt-ad-1664956146740-0' style='margin: 0 auto;'>
 <script>
-console.log('overlay:geniee');
-window.gnshbrequest.cmd.push(function() {
-window.gnshbrequest.applyPassback("1548289", "[data-cptid='1548289']");
+console.log('overlay:fluct');
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1664956146740-0');
+googletag.pubads().addEventListener('slotRenderEnded', function(evt) {
+var slot = evt.slot;
+if (slot.getSlotElementId() === 'div-gpt-ad-1664956146740-0') {
+var height = evt.size[1];
+document.body.style.paddingBottom = height + 'px';
+}
+});
 });
 </script>
 </div>
-<!-- /Geniee Wrapper Body Tag 1548289 -->
+</span>
+<div style="height: 0px; width: 100%; position: absolute; bottom: 0; overflow: hidden;"></div>
+</div>
+<!-- ここまで -->
+
 <style>
 #geniee_overlay_outer{
 z-index: 1500 !important;
