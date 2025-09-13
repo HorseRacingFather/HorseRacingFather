@@ -14,8 +14,34 @@ from bs4 import BeautifulSoup
 API_URL = "https://api.openai.com/v1/chat/completions"
 API_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
-HORSE_RESULTS_LIMIT_ENV = os.environ.get("HORSE_RESULTS_LIMIT")           # "ALL" or int
-HORSE_RESULTS_PROMPT_LIMIT_ENV = os.environ.get("HORSE_RESULTS_PROMPT_LIMIT")  # "ALL" or int
+SYSTEM_PROMPT = """You are a meticulous horse-racing model that converts structured past-performance data into calibrated win probabilities.
+- Use only the information provided in the prompt. Do not invent external facts.
+- Do all reasoning internally. Output JSON only."""
+
+GUIDE = """
+あなたは競馬の予想家です。以下のレース情報と出走馬情報（直近成績付き）から、各馬の**勝利確率 p_i**を推定してください。
+内部では次の評価規則で**素点 s_i**を計算し、**p_i = softmax(s_i)** で確率化してください（中身は出力しない）。
+
+[評価規則: 各 0–10 点の部分点 + 補正]
+1) RecentForm (0–10): 直近最大5走。新しいほど重み大（重み例: [1.0,0.8,0.6,0.4,0.2]）。
+   目安の配点: 1着=6, 2着=4, 3着=3, 4–5着=1, それ以外=0。休養が長い(>180日)場合はRecentFormを控えめに解釈。
+2) ConditionFit (0–10): 本レース条件（surface, distance±200m, going が近い）での近走成績を高評価。
+   同条件(または近似条件)で掲示板内(≤5着)なら加点、凡走(≥9着)が多ければ減点。
+3) Class/Competition (0–10): 近走のレース格（G1/G2/G3/OP/L/3勝/2勝/1勝/未勝）での相対的な善戦を加点。
+   高格で善戦ほど大きく、低格のみ好走は控えめ。
+4) 補正(±): 連闘(≤7日)は小さく減点、極端な距離延長/短縮(±>400m)は適性不明として小さく減点（ただし同様条件で好走実績があれば相殺）。
+   同騎手継続は小さく加点。斤量が前走より増なら小さく減点、減なら小さく加点（±1kgにつき±0.5点、最大±1.5点目安）。
+   ※ 補正は合計が過大にならないように小さめに。
+
+[厳守事項]
+- 使ってよい情報は本プロンプト内のテキストのみ（URL名や馬名そのものの印象等は使わない）。
+- すべての出走馬 horseId に対し確率を出す。キー欠落や未知IDは作らない。
+- 小数は**4桁**で丸める前に**内部で正規化**し、丸め後も合計が **1.0** になるよう微調整して出力。
+- 0 ちょうどは避け、最小で 0.0001 とし、**全体を再正規化**して合計1.0にする。
+
+[出力形式]
+JSON オブジェクトのみ（キー: horseId, 値: 勝率 0–1 の小数、4桁）。説明文は出力しない。
+"""
 
 
 def _env_limit_to_int(env_val: Optional[str]) -> Optional[int]:
@@ -36,8 +62,8 @@ def _env_limit_to_int(env_val: Optional[str]) -> Optional[int]:
         return None
 
 
-HORSE_RESULTS_LIMIT = _env_limit_to_int(HORSE_RESULTS_LIMIT_ENV)
-HORSE_RESULTS_PROMPT_LIMIT = _env_limit_to_int(HORSE_RESULTS_PROMPT_LIMIT_ENV)
+HORSE_RESULTS_LIMIT = 50
+HORSE_RESULTS_PROMPT_LIMIT = 25
 
 
 def http_get(url: str, timeout: int = 20) -> str:
@@ -174,6 +200,17 @@ def parse_horse_recent_results(db_url: str, limit: Optional[int] = HORSE_RESULTS
                     if m2:
                         pop = m2.group(1)
 
+            # 賞金（万円）: 多くのレイアウトで最終列が賞金(万円)の数値
+            prize_val: Optional[float] = None
+            try:
+                if cols:
+                    last_col = cols[-1]
+                    m = re.fullmatch(r"\d+(?:\.\d+)?", last_col)
+                    if m:
+                        prize_val = float(m.group(0))
+            except Exception:
+                prize_val = None
+
             item = {
                 "date": date_text,
                 "race": race_name,
@@ -188,6 +225,8 @@ def parse_horse_recent_results(db_url: str, limit: Optional[int] = HORSE_RESULTS
                 "margin": margin,
                 "odds": odds,
                 "pop": pop,
+                # null のときは 0 を出力
+                "prize": prize_val if prize_val is not None else 0.0,
                 "raw": row_text,
                 "cols": cols,
             }
@@ -236,6 +275,14 @@ def _render_recent_for_prompt(recent: List[Dict[str, str]], limit: Optional[int]
         if r.get("pop"): segs.append(f"人気={r['pop']}")
         if r.get("time"): segs.append(f"Time={r['time']}")
         if r.get("margin"): segs.append(f"差={r['margin']}")
+        # 賞金（万円）。null は 0 として常に表示
+        prize_raw = r.get("prize", 0)
+        try:
+            prize_num = float(prize_raw)
+            prize_str = str(int(prize_num)) if prize_num.is_integer() else (f"{prize_num:.1f}".rstrip('0').rstrip('.'))
+        except Exception:
+            prize_str = "0"
+        segs.append(f"賞金={prize_str}万円")
         if not segs and r.get("raw"):
             segs.append(r["raw"])
         lines.append("    - " + " / ".join(segs))
@@ -275,7 +322,7 @@ def build_prompt(race: Dict[str, Any], horses: List[Dict[str, Any]]) -> str:
     example = '{"h_202506040401_2": 0.3500, "h_202506040401_5": 0.2500, "h_202506040401_8": 0.1000, "h_...": 0.3000}'
     prompt = (
         f"レース情報: {meta}\n"
-        f"出走馬:\n" + "\n".join(lines) + "\n\n" + guide + "\n出力例: " + example
+        f"出走馬:\n" + "\n".join(lines) + "\n\n" + GUIDE
     )
     return prompt
 
@@ -291,7 +338,7 @@ def call_chatgpt(prompt: str) -> Dict[str, float]:
     body = {
         "model": API_MODEL,
         "messages": [
-            {"role": "system", "content": "You are an expert horse racing analyst. Output JSON only."},
+            {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
         ],
         "temperature": 0,
