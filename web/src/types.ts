@@ -6,8 +6,7 @@ export type Entry = {
   jockey: string
   weight: number
   odds: number | null
-  predictionScore: number
-  predictionRank?: number
+  predictionRank: number
   horseDbUrl?: string
   horseBrief?: {
     lastResultDate?: string
@@ -36,5 +35,5 @@ export type Data = {
   races: Race[]
 }
 
-export type SortKey = 'number' | 'prediction'
+export type SortKey = 'number' | 'rank'
 

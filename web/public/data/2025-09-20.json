@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-13T22:08:29.048394Z",
+  "generatedAt": "2025-09-13T22:23:51.522264Z",
   "week": "2025-09-20",
   "sources": {
     "netkeibaCalendar": "https://race.netkeiba.com/top/calendar.html"
@@ -28,7 +28,6 @@
           "jockey": "高田",
           "weight": 60,
           "odds": null,
-          "predictionScore": 0.13242099044993605,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2019105366/",
           "horseBrief": {
             "lastResultDate": "2025/07/26",
@@ -996,7 +995,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 6
         },
         {
           "horseId": "h_202506040401_2",
@@ -1006,7 +1006,6 @@
           "jockey": "▲坂口",
           "weight": 57,
           "odds": null,
-          "predictionScore": 0.11341931672738015,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2021103916/",
           "horseBrief": {
             "lastResultDate": "2025/08/17",
@@ -1926,7 +1925,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 5
         },
         {
           "horseId": "h_202506040401_3",
@@ -1936,7 +1936,6 @@
           "jockey": "草野",
           "weight": 60,
           "odds": null,
-          "predictionScore": 0.13242099044993605,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2021110146/",
           "horseBrief": {
             "lastResultDate": "2025/07/26",
@@ -2856,7 +2855,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 4
         },
         {
           "horseId": "h_202506040401_4",
@@ -2866,7 +2866,6 @@
           "jockey": "大江圭",
           "weight": 60,
           "odds": null,
-          "predictionScore": 0.13242099044993605,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2020105031/",
           "horseBrief": {
             "lastResultDate": "2025/07/27",
@@ -3834,7 +3833,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 3
         },
         {
           "horseId": "h_202506040401_5",
@@ -3844,7 +3844,6 @@
           "jockey": "黒岩",
           "weight": 58,
           "odds": null,
-          "predictionScore": 0.11341931672738015,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2020109148/",
           "horseBrief": {
             "lastResultDate": "2025/07/22",
@@ -4812,7 +4811,8 @@
                 "160.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 2
         },
         {
           "horseId": "h_202506040401_6",
@@ -4822,7 +4822,6 @@
           "jockey": "伴",
           "weight": 58,
           "odds": null,
-          "predictionScore": 0.11341931672738015,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103884/",
           "horseBrief": {
             "lastResultDate": "2025/06/29",
@@ -5262,7 +5261,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 7
         },
         {
           "horseId": "h_202506040401_7",
@@ -5272,7 +5272,6 @@
           "jockey": "石神深",
           "weight": 60,
           "odds": null,
-          "predictionScore": 0.11341931672738015,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104770/",
           "horseBrief": {
             "lastResultDate": "2025/05/24",
@@ -6096,7 +6095,8 @@
                 "72.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 8
         },
         {
           "horseId": "h_202506040401_8",
@@ -6106,7 +6106,6 @@
           "jockey": "西谷誠",
           "weight": 60,
           "odds": null,
-          "predictionScore": 0.11341931672738015,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2019101023/",
           "horseBrief": {
             "lastResultDate": "2025/08/24",
@@ -7074,7 +7073,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 1
         },
         {
           "horseId": "h_202506040401_9",
@@ -7084,7 +7084,6 @@
           "jockey": "▲水沼",
           "weight": 56,
           "odds": null,
-          "predictionScore": 0.03564044501329133,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103025/",
           "horseBrief": {
             "lastResultDate": "2025/08/16",
@@ -7380,7 +7379,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 9
         }
       ]
     },
@@ -7407,7 +7407,6 @@
           "jockey": "小林脩",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.1201889568651746,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102360/",
           "horseBrief": {
             "lastResultDate": "2025/08/24",
@@ -7511,7 +7510,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 5
         },
         {
           "horseId": "h_202506040402_2",
@@ -7521,7 +7521,6 @@
           "jockey": "▲上里",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.06698675753117012,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103256/",
           "horseBrief": {
             "lastResultDate": "2025/07/19",
@@ -7577,7 +7576,8 @@
                 "190.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 8
         },
         {
           "horseId": "h_202506040402_3",
@@ -7587,7 +7587,6 @@
           "jockey": "野中",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.1201889568651746,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106437/",
           "horseBrief": {
             "lastResultDate": "2025/08/10",
@@ -7691,7 +7690,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 4
         },
         {
           "horseId": "h_202506040402_4",
@@ -7701,7 +7701,6 @@
           "jockey": "▲水沼",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023109094/",
           "horseBrief": {
             "lastResultDate": "2025/07/19",
@@ -7805,7 +7804,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 12
         },
         {
           "horseId": "h_202506040402_5",
@@ -7815,7 +7815,6 @@
           "jockey": "横山琉",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101101/",
           "horseBrief": {
             "lastResultDate": "2025/06/14",
@@ -7871,7 +7870,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 13
         },
         {
           "horseId": "h_202506040402_6",
@@ -7881,7 +7881,6 @@
           "jockey": "▲佐藤",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023109116/",
           "horseBrief": {
             "lastResultDate": "2025/06/28",
@@ -7937,7 +7936,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 14
         },
         {
           "horseId": "h_202506040402_7",
@@ -7947,7 +7947,6 @@
           "jockey": "原",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.06698675753117012,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100006/",
           "horseBrief": {
             "lastResultDate": "2025/07/20",
@@ -8051,7 +8050,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 6
         },
         {
           "horseId": "h_202506040402_8",
@@ -8061,7 +8061,6 @@
           "jockey": "戸崎圭",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.1201889568651746,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103418/",
           "horseBrief": {
             "lastResultDate": "2025/06/28",
@@ -8165,7 +8164,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 3
         },
         {
           "horseId": "h_202506040402_9",
@@ -8175,7 +8175,6 @@
           "jockey": "黛",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.06698675753117012,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104165/",
           "horseBrief": {
             "lastResultDate": "2025/07/12",
@@ -8279,7 +8278,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 7
         },
         {
           "horseId": "h_202506040402_10",
@@ -8289,7 +8289,6 @@
           "jockey": "柴田善",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.06698675753117012,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105436/",
           "horseBrief": {
             "lastResultDate": "2025/06/28",
@@ -8393,7 +8392,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 2
         },
         {
           "horseId": "h_202506040402_11",
@@ -8403,7 +8403,6 @@
           "jockey": "津村",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.1201889568651746,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103032/",
           "horseBrief": {
             "lastResultDate": "2025/07/20",
@@ -8507,7 +8506,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 1
         },
         {
           "horseId": "h_202506040402_12",
@@ -8517,7 +8517,6 @@
           "jockey": "▲石田",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104699/",
           "horseBrief": {
             "lastResultDate": "2025/08/09",
@@ -8573,7 +8572,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 11
         },
         {
           "horseId": "h_202506040402_13",
@@ -8583,7 +8583,6 @@
           "jockey": "杉原",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.06698675753117012,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106608/",
           "horseBrief": {
             "lastResultDate": "2025/08/02",
@@ -8735,7 +8734,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 9
         },
         {
           "horseId": "h_202506040402_14",
@@ -8745,7 +8745,6 @@
           "jockey": "▲石神道",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100421/",
           "horseBrief": {
             "lastResultDate": "2025/07/12",
@@ -8849,7 +8848,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 10
         },
         {
           "horseId": "h_202506040402_15",
@@ -8859,7 +8859,6 @@
           "jockey": "吉田豊",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100935/",
           "horseBrief": {
             "lastResultDate": "2025/07/20",
@@ -8915,7 +8914,8 @@
                 "56.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 15
         },
         {
           "horseId": "h_202506040402_16",
@@ -8925,7 +8925,6 @@
           "jockey": "▲小林美",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.026330054983350108,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101177/",
           "horseBrief": {
             "lastResultDate": "2025/08/16",
@@ -8981,7 +8980,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 16
         }
       ]
     },
@@ -9008,7 +9008,6 @@
           "jockey": "菅原明",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.042525166995954475,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103942/",
           "horseBrief": {
             "lastResultDate": "2025/08/24",
@@ -9064,7 +9063,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 6
         },
         {
           "horseId": "h_202506040403_2",
@@ -9074,7 +9074,6 @@
           "jockey": "丸田",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.14610969987769312,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102312/",
           "horseBrief": {
             "lastResultDate": "2025/08/10",
@@ -9178,7 +9177,8 @@
                 "300.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 1
         },
         {
           "horseId": "h_202506040403_3",
@@ -9188,7 +9188,6 @@
           "jockey": "柴田大",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.032458368614168794,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105547/",
           "horseBrief": {
             "lastResultDate": "2025/08/23",
@@ -9244,7 +9243,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 8
         },
         {
           "horseId": "h_202506040403_4",
@@ -9254,7 +9254,6 @@
           "jockey": "菊沢",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.08156929156082418,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102896/",
           "horseBrief": {
             "lastResultDate": "2025/08/09",
@@ -9310,7 +9309,8 @@
                 "300.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 2
         },
         {
           "horseId": "h_202506040403_5",
@@ -9320,7 +9320,6 @@
           "jockey": "内田博",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.08156929156082418,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104221/",
           "horseBrief": {
             "lastResultDate": "2025/07/27",
@@ -9424,7 +9423,8 @@
                 "110.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 7
         },
         {
           "horseId": "h_202506040403_6",
@@ -9434,7 +9434,6 @@
           "jockey": "原",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.032458368614168794,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107439/",
           "horseBrief": {
             "lastResultDate": "2025/07/05",
@@ -9490,7 +9489,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 13
         },
         {
           "horseId": "h_202506040403_7",
@@ -9500,7 +9500,6 @@
           "jockey": "▲小林美",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.042525166995954475,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103139/",
           "horseBrief": {
             "lastResultDate": "2025/07/26",
@@ -9556,7 +9555,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 9
         },
         {
           "horseId": "h_202506040403_8",
@@ -9566,7 +9566,6 @@
           "jockey": "荻野極",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.08156929156082418,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101106/",
           "horseBrief": {
             "lastResultDate": "2025/08/09",
@@ -9622,7 +9621,8 @@
                 "190.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 5
         },
         {
           "horseId": "h_202506040403_9",
@@ -9632,7 +9632,6 @@
           "jockey": "江田照",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.08156929156082418,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102881/",
           "horseBrief": {
             "lastResultDate": "2025/08/09",
@@ -9736,7 +9735,8 @@
                 "190.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 10
         },
         {
           "horseId": "h_202506040403_10",
@@ -9746,7 +9746,6 @@
           "jockey": "木幡巧",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.14610969987769312,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105359/",
           "horseBrief": {
             "lastResultDate": "2025/08/17",
@@ -9946,7 +9945,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 3
         },
         {
           "horseId": "h_202506040403_11",
@@ -9956,7 +9956,6 @@
           "jockey": "▲石田",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.032458368614168794,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100487/",
           "horseBrief": {
             "lastResultDate": "2025/09/06",
@@ -10012,7 +10011,8 @@
                 "110.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 12
         },
         {
           "horseId": "h_202506040403_12",
@@ -10022,7 +10022,6 @@
           "jockey": "▲遠藤",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.08156929156082418,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102830/",
           "horseBrief": {
             "lastResultDate": "2025/07/13",
@@ -10174,7 +10173,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 4
         },
         {
           "horseId": "h_202506040403_13",
@@ -10184,7 +10184,6 @@
           "jockey": "戸崎圭",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.032458368614168794,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100095/",
           "horseBrief": {
             "lastResultDate": "2025/09/06",
@@ -10240,7 +10239,8 @@
                 "75.0"
               ]
             }
-          ]
+          ],
+          "predictionRank": 15
         },
         {
           "horseId": "h_202506040403_14",
@@ -10250,7 +10250,6 @@
           "jockey": "吉田豊",
           "weight": 55,
           "odds": null,
-          "predictionScore": 0.042525166995954475,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104033/",
           "horseBrief": {
             "lastResultDate": "2025/08/16",
@@ -10306,7 +10305,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 11
         },
         {
           "horseId": "h_202506040403_15",
@@ -10316,7 +10316,6 @@
           "jockey": "▲水沼",
           "weight": 52,
           "odds": null,
-          "predictionScore": 0.042525166995954475,
           "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102653/",
           "horseBrief": {
             "lastResultDate": "2025/08/10",
@@ -10372,7 +10371,8 @@
                 ""
               ]
             }
-          ]
+          ],
+          "predictionRank": 14
         }
       ]
     }

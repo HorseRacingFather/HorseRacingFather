@@ -17,39 +17,14 @@ function sortEntries(entries: Entry[], key: SortKey): Entry[] {
   switch (key) {
     case 'number':
       return arr.sort((a, b) => a.horseNumber - b.horseNumber)
-    case 'prediction':
-      return arr.sort(
-        (a, b) => b.predictionScore - a.predictionScore || a.horseNumber - b.horseNumber,
-      )
+    case 'rank':
+      return arr.sort((a, b) => a.predictionRank - b.predictionRank || a.horseNumber - b.horseNumber)
     default:
       return arr
   }
 }
 
-function percentProb(entries: Entry[], horseId: string): number {
-  const sum = entries.reduce((s, e) => s + Math.max(0, e.predictionScore || 0), 0)
-  if (!sum) return 0
-  const e = entries.find((x) => x.horseId === horseId)
-  if (!e) return 0
-  return (Math.max(0, e.predictionScore || 0) / sum) * 100
-}
-
-function formatProb(p: number): string {
-  return p.toFixed(1)
-}
-
-function sortEntriesWithProb(entries: Entry[], key: SortKey): Entry[] {
-  if (key !== 'prediction') return sortEntries(entries, key)
-  const sum = entries.reduce((s, e) => s + Math.max(0, e.predictionScore || 0), 0)
-  if (!sum) return sortEntries(entries, 'number')
-  const arr = [...entries]
-  return arr.sort((a, b) => {
-    const pa = Math.max(0, a.predictionScore || 0) / sum
-    const pb = Math.max(0, b.predictionScore || 0) / sum
-    if (pb !== pa) return pb - pa
-    return a.horseNumber - b.horseNumber
-  })
-}
+// 予着順での並び替えは sortEntries('rank') を利用
 
 export default function RaceDetail({ data }: { data: Data }) {
   const { raceId } = useParams()
@@ -94,7 +69,7 @@ export default function RaceDetail({ data }: { data: Data }) {
           onChange={(e) => setSort(e.target.value as SortKey)}
         >
           <option value="number">馬番順</option>
-          <option value="prediction">予想勝率順</option>
+          <option value="rank">予着順</option>
         </select>
       </div>
       <table className="w-full mt-3 text-sm">
@@ -102,11 +77,11 @@ export default function RaceDetail({ data }: { data: Data }) {
           <tr className="text-left text-slate-500">
             <th className="py-1 w-12">馬番</th>
             <th className="py-1">馬名</th>
-            <th className="py-1 w-24 text-right">予想勝率(%)</th>
+            <th className="py-1 w-16 text-right">予着</th>
           </tr>
         </thead>
         <tbody>
-          {sortEntriesWithProb(race.entries, sort).map((e) => (
+          {sortEntries(race.entries, sort).map((e) => (
             <tr key={e.horseId} className="border-t border-slate-100 dark:border-slate-700">
               <td className="py-1">{e.horseNumber}</td>
               <td className="py-1">
@@ -123,7 +98,7 @@ export default function RaceDetail({ data }: { data: Data }) {
                   {e.sexAge} / {e.jockey} / {e.weight}kg
                 </div>
               </td>
-              <td className="py-1 text-right">{formatProb(percentProb(race.entries, e.horseId))}</td>
+              <td className="py-1 text-right">{e.predictionRank}</td>
             </tr>
           ))}
         </tbody>

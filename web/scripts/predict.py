@@ -14,13 +14,12 @@ from bs4 import BeautifulSoup
 API_URL = "https://api.openai.com/v1/chat/completions"
 API_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
-SYSTEM_PROMPT = """You are a meticulous horse-racing model that converts structured past-performance data into calibrated win probabilities.
+SYSTEM_PROMPT = """You are a meticulous horse-racing model that ranks horses based on structured past-performance data.
 - Use only the information provided in the prompt. Do not invent external facts.
 - Do all reasoning internally. Output JSON only."""
 
 GUIDE = """
-あなたは競馬の予想家です。以下のレース情報と出走馬情報（直近成績付き）から、各馬の**勝利確率 p_i**を推定してください。
-内部では次の評価規則で**素点 s_i**を計算し、**p_i = softmax(s_i)** で確率化してください（中身は出力しない）。
+あなたは競馬の予想家です。以下のレース情報と出走馬情報（直近成績付き）から、各馬の**予想着順（1〜Nの整数）**を決定してください。
 
 [評価規則: 各 0–10 点の部分点 + 補正]
 1) RecentForm (0–10): 直近最大5走。新しいほど重み大（重み例: [1.0,0.8,0.6,0.4,0.2]）。
@@ -30,17 +29,16 @@ GUIDE = """
 3) Class/Competition (0–10): 近走のレース格（G1/G2/G3/OP/L/3勝/2勝/1勝/未勝）での相対的な善戦を加点。
    高格で善戦ほど大きく、低格のみ好走は控えめ。
 4) 補正(±): 連闘(≤7日)は小さく減点、極端な距離延長/短縮(±>400m)は適性不明として小さく減点（ただし同様条件で好走実績があれば相殺）。
-   同騎手継続は小さく加点。斤量が前走より増なら小さく減点、減なら小さく加点（±1kgにつき±0.5点、最大±1.5点目安）。
+   同騎手継続は小さく加点。斤量増は小さく減点、斤量減は小さく加点（±1kgにつき±0.5点、最大±1.5点目安）。
    ※ 補正は合計が過大にならないように小さめに。
 
 [厳守事項]
-- 使ってよい情報は本プロンプト内のテキストのみ（URL名や馬名そのものの印象等は使わない）。
-- すべての出走馬 horseId に対し確率を出す。キー欠落や未知IDは作らない。
-- 小数は**4桁**で丸める前に**内部で正規化**し、丸め後も合計が **1.0** になるよう微調整して出力。
-- 0 ちょうどは避け、最小で 0.0001 とし、**全体を再正規化**して合計1.0にする。
+- 使ってよい情報は本プロンプト内のテキストのみ。
+- すべての出走馬 horseId に対し順位(1..N)を割り当てる。キー欠落や未知IDは作らない。
+- 重複順位は禁止（厳密な順列）。
 
 [出力形式]
-JSON オブジェクトのみ（キー: horseId, 値: 勝率 0–1 の小数、4桁）。説明文は出力しない。
+JSON オブジェクトのみ（キー: horseId, 値: 1..N の整数）。説明文は出力しない。
 """
 
 
@@ -300,6 +298,39 @@ def normalize_probs(values: Dict[str, float]) -> Dict[str, float]:
     return {k: max(0.0, float(v)) / s for k, v in values.items()}
 
 
+def ensure_permutation_ranks(horse_ids: List[str], raw: Dict[str, Any]) -> Dict[str, int]:
+    """horseId→rank(1..N) の厳密な順列を生成。壊れていても補正する。
+
+    補正ルール:
+      - 非整数/<=0/欠損は未割当扱い
+      - 重複順位は先勝ち、以降は未割当に回す
+      - 最終的に未割当へ小さい順の空き順位を割当
+    """
+    n = len(horse_ids)
+    assigned: Dict[str, Optional[int]] = {hid: None for hid in horse_ids}
+    used: set[int] = set()
+
+    for hid in horse_ids:
+        v = raw.get(hid)
+        try:
+            rank = int(v)
+        except Exception:
+            rank = None  # 未割当
+        if rank is not None and 1 <= rank <= n and rank not in used:
+            assigned[hid] = rank
+            used.add(rank)
+
+    # 空き順位のリスト
+    available = [r for r in range(1, n + 1) if r not in used]
+
+    # 未割当を埋める（馬番順の安定割当）
+    for hid in horse_ids:
+        if assigned[hid] is None:
+            assigned[hid] = available.pop(0)
+
+    return {hid: int(assigned[hid]) for hid in horse_ids}
+
+
 def _render_recent_for_prompt(recent: List[Dict[str, str]], limit: Optional[int] = HORSE_RESULTS_PROMPT_LIMIT) -> str:
     """
     recent をテキストで読みやすく整形。各行は最小限の要素を並べる。
@@ -363,12 +394,6 @@ def build_prompt(race: Dict[str, Any], horses: List[Dict[str, Any]]) -> str:
         lines.append("   最近の戦績:")
         lines.append(_render_recent_for_prompt(recent))
 
-    guide = (
-        "あなたは競馬の予想家です。以下のレース情報と出走馬情報（過去成績を含む）から、各馬の勝利確率を推定してください。"
-        " 小数(0〜1)で出力し、全馬の合計が1.0になるようにしてください。根拠の文章は不要で、JSONオブジェクトのみ出力してください。"
-        " キーは horseId、値は勝率(0〜1)。小数点4桁程度まで。"
-    )
-    example = '{"h_202506040401_2": 0.3500, "h_202506040401_5": 0.2500, "h_202506040401_8": 0.1000, "h_...": 0.3000}'
     prompt = (
         f"レース情報: {meta}\n"
         f"出走馬:\n" + "\n".join(lines) + "\n\n" + GUIDE
@@ -447,28 +472,31 @@ def main():
         print(f"Prompt:\n{prompt}")
 
         try:
-            probs_raw = call_chatgpt(prompt)
+            ranks_raw = call_chatgpt(prompt)
         except Exception:
-            # 失敗時は一様分布
-            probs_raw = {e.get("horseId"): 1.0 for e in entries}
+            # 失敗時は馬番順で 1..N を割り当て
+            ranks_raw = {e.get("horseId"): i + 1 for i, e in enumerate(sorted(entries, key=lambda x: x.get("horseNumber", 0)))}
 
-        # 正規化して entries へ勝率を反映（0〜1）
-        probs = normalize_probs(probs_raw)
+        # 厳密な順列へ補正
+        horse_ids = [e.get("horseId") for e in enriched_entries]
+        ranks = ensure_permutation_ranks(horse_ids, ranks_raw)
         merged_entries2 = []
         for e in enriched_entries:
             hid = e.get("horseId")
-            score = float(probs.get(hid, 0.0))
             m = dict(e)
-            m["predictionScore"] = score
+            m["predictionRank"] = int(ranks.get(hid, 999))
+            # 互換のため旧フィールドを削除
+            if "predictionScore" in m:
+                del m["predictionScore"]
             merged_entries2.append(m)
 
         m_race = dict(race)
         m_race["entries"] = merged_entries2
         merged_races.append(m_race)
 
-        print(f"Probs: {probs}")
+        print(f"Ranks: {ranks}")
         # ログ保存（失敗は無視）
-        _save_prompt_and_answer(race_id, prompt, probs_raw, probs)
+        _save_prompt_and_answer(race_id, prompt, ranks_raw, ranks)
 
     # 予想をマージ済みの完全データを public/data に出力
     out = dict(src)
