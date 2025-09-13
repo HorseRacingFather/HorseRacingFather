@@ -11,11 +11,17 @@ on:
     # 毎週金曜 12:00 UTC（日本時間 21:00頃）。必要に応じて調整してください。
     - cron: '0 12 * * 5'
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build-and-predict:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
     steps:
@@ -54,26 +60,39 @@ jobs:
           set -e
           INP="${{ github.event.inputs.week_json }}"
           if [ -z "$INP" ]; then
-            # 最新の current.json を優先
-            if [ -f data/current.json ]; then INP="data/current.json"; fi
-            # 週次ファイル（今週土曜キー）をフォールバック
+            # 最新の current.json を優先（public/data）
+            if [ -f public/data/current.json ]; then INP="public/data/current.json"; fi
+            # 週次ファイルをフォールバック（public/data/YYYY/*.json の最新）
             if [ -z "$INP" ]; then
-              INP=$(ls -1t data/*/*.json | head -n 1)
+              INP=$(ls -1t public/data/*/*.json | head -n 1)
             fi
           fi
           echo "Using input: $INP"
-          python scripts/predict.py "$INP" public/predictions
+          python scripts/predict.py "$INP" public/data
 
-      - name: Commit updates
+      - name: Commit updates (public/data)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/data web/public/predictions || true
+          git add web/public/data || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(data): update week data and predictions [skip ci]"
+            git commit -m "chore(data): update merged data [skip ci]"
             git push
           fi
+
+      - name: Build web (vite)
+        working-directory: web
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
 
 
