@@ -1,0 +1,79 @@
+name: Generate week data and predictions
+
+on:
+  workflow_dispatch:
+    inputs:
+      week_json:
+        description: "Optional path to input week json (defaults to generated)"
+        required: false
+        default: ""
+  schedule:
+    # 毎週金曜 12:00 UTC（日本時間 21:00頃）。必要に応じて調整してください。
+    - cron: '0 12 * * 5'
+
+jobs:
+  build-and-predict:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps (web)
+        working-directory: web
+        run: npm ci
+
+      - name: Generate week data JSON
+        working-directory: web
+        run: npm run gen:data
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        working-directory: web
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run prediction (ChatGPT)
+        working-directory: web
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          set -e
+          INP="${{ github.event.inputs.week_json }}"
+          if [ -z "$INP" ]; then
+            # 最新の current.json を優先
+            if [ -f data/current.json ]; then INP="data/current.json"; fi
+            # 週次ファイル（今週土曜キー）をフォールバック
+            if [ -z "$INP" ]; then
+              INP=$(ls -1t data/*/*.json | head -n 1)
+            fi
+          fi
+          echo "Using input: $INP"
+          python scripts/predict.py "$INP" public/predictions
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data web/public/predictions || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(data): update week data and predictions [skip ci]"
+            git push
+          fi
+
+

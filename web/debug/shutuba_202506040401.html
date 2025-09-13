@@ -105,8 +105,8 @@
 <script src="https://cdn.netkeiba.com/img.sp/common/js/loadFif.js?ver=20240807"></script>
 
 
-<script>console.log('ad_head_shutuba_a');</script>
-<!-- ヘッダー -->
+
+<script>console.log('ad_head_shutuba_b');</script>
 <!-- GAMスクリプトの読み込み -->
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <!-- BID STRAPスクリプトの読み込み -->
@@ -151,7 +151,6 @@ googletag.cmd.push(function() {
 function randomInt(min, max) {
 return Math.floor( Math.random() * (max + 1 - min) ) + min;
 }
-googletag.defineSlot('/62532913,21246805/s_netkeiba_320x50_overlay-run_3130', [320, 50], 'div-gpt-ad-1664956146740-0').addService(googletag.pubads());
 googletag.defineSlot("/62532913,21246805/s_netkeiba_300x250_racepage3_3130", [[300,250],[336,280]], "div-gpt-ad-1594863053553-0").addService(googletag.pubads());
 googletag.pubads().setTargeting("fluct_ad_group", String(randomInt(1, 10)));
 googletag.pubads().enableSingleRequest();
@@ -170,13 +169,11 @@ window.gnshbrequest.registerPassback("1533128");
 window.gnshbrequest.registerPassback("1533130");
 window.gnshbrequest.registerPassback("1533132");
 window.gnshbrequest.registerPassback("1533131");
+window.gnshbrequest.registerPassback("1548289");
 window.gnshbrequest.forceInternalRequest();
 });
 </script>
 <script async src="https://cpt.geniee.jp/hb/v1/152121/570/wrapper.min.js"></script>
-<!-- /Geniee Wrapper Head Tag -->
-<!-- ここまで -->
-
 <script type="text/javascript">
 // $Id: race_common_js.html 16091 2018-04-26 01:21:19Z m-ashizawa $
 window.console = {};
@@ -528,7 +525,7 @@ duraAdFreq.freqCall("sp_nk_race_PMP_FR", "sp_nk_race_PMP", 23, 2, 24);
 
 
 <!-- race_title -->
-<!-- block=race_title (cg) -->
+<!-- block=race_title (cp) -->
 <div class="Race_Detail_Info_Btn fc">
 <div class="RaceChangeMenu_Group fc">
 <div class="Change_Btn_DayWrap">
@@ -1413,7 +1410,7 @@ var _action_api_url_change_session = 'https://race.sp.netkeiba.com';
 </script>
 <script type="text/javascript" src="https://cdn.netkeiba.com/img.racev4.sp/common/js/change_session.js?190920"></script>
 
-<!-- block=shutuba (cg) -->
+<!-- block=shutuba (cp) -->
 <style>
 .sort_icon { display:none; }
 th {
@@ -2230,7 +2227,7 @@ get_has_note('shutuba', ketto_nums);
 
 <!-- block=live_commerce_link (cp) -->
 
-<!-- block=race_compatibility (cp) -->
+<!-- block=race_compatibility (cg) -->
 <h3 class="Title_3rd Master">AIレース相性度<span class="master_course_badge">マスター</span></h3>
 
 <div class="Table_Compatibility_Wrap">
@@ -2414,7 +2411,7 @@ loadDuraFiF("sp_nk_race_001",23);
 
 
 
-<!-- block=race_tenkai_navi (cp) -->
+<!-- block=race_tenkai_navi (cg) -->
 <div class="race_tenkai_naviContainer">
 <div class="Title_Sec Master">
 <h2 class="predictionTitle">AI展開予測</h2><span class="master_course_badge">マスター</span>
@@ -2698,7 +2695,7 @@ $slider.slick('slickGoTo', parseInt(slideIndex));
 });
 });
 </script>
-<!-- block=ai_tenkai (cp) -->
+<!-- block=ai_tenkai (cg) -->
 <div class="Race_Infomation_Box" id="ai_exception">障害レースは対象外となります。</div>
 <!-- block=top3data (cg) -->
 <!-- 各データ上位3頭 -->
@@ -3960,29 +3957,17 @@ $('.AppBannerIphone').show();
 <!-- block=advertisement_gam (d) -->
 
 
-<!-- 広告ユニット -->
-<!-- /62532913,21246805/s_netkeiba_320x50_overlay-run_3130 -->
-<div style="position: fixed; height: auto; bottom: 0; width: 100%; text-align: center; left: 0; z-index: 1500; padding-top: 3px;" class="bottom_ad">
-<span>
-<div id='div-gpt-ad-1664956146740-0' style='margin: 0 auto;'>
+
+<!-- Geniee Wrapper Body Tag 1548289 -->
+<div data-cptid="1548289" style="display: block;">
 <script>
-console.log('overlay:fluct');
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1664956146740-0');
-googletag.pubads().addEventListener('slotRenderEnded', function(evt) {
-var slot = evt.slot;
-if (slot.getSlotElementId() === 'div-gpt-ad-1664956146740-0') {
-var height = evt.size[1];
-document.body.style.paddingBottom = height + 'px';
-}
-});
+console.log('overlay:geniee');
+window.gnshbrequest.cmd.push(function() {
+window.gnshbrequest.applyPassback("1548289", "[data-cptid='1548289']");
 });
 </script>
 </div>
-</span>
-<div style="height: 0px; width: 100%; position: absolute; bottom: 0; overflow: hidden;"></div>
-</div>
-<!-- ここまで -->
-
+<!-- /Geniee Wrapper Body Tag 1548289 -->
 <style>
 #geniee_overlay_outer{
 z-index: 1500 !important;

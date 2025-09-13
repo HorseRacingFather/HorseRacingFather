@@ -1,69 +1,33 @@
-# React + TypeScript + Vite
+# Web App 開発ガイド
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## セットアップと開発
 
-Currently, two official plugins are available:
+```bash
+npm ci
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 週間データ生成（出力先: public/data/... と public/data/current.json）
+npm run gen:data
 
-## Expanding the ESLint configuration
+# 予想生成＆マージ済みJSONを書き出し（出力先: public/data）
+export OPENAI_API_KEY=sk-xxxx
+python3 scripts/predict.py public/data/current.json public/data
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# 開発サーバ
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## データの読み込み（フロント）
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- フロントは単一の JSON を読み込みます。
+- 取得先の優先度: `/data/current.json` → `/data/{yyyy}/{week}.json`（自動判定）。
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 予想ファイルの生成（Python）
+
+`scripts/predict.py` は週次 JSON を入力に、各馬の勝率を `predictionScore` としてマージ済みの JSON を `public/data` に出力します。
+
+```bash
+export OPENAI_API_KEY=sk-xxxx
+python3 scripts/predict.py public/data/current.json public/data
 ```
+
+詳細はリポジトリ直下の `README.md` を参照してください。

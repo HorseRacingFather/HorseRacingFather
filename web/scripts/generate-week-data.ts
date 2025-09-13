@@ -2,14 +2,14 @@
 import fs from 'fs-extra'
 import path from 'path'
 import dayjs from 'dayjs'
-import { load, CheerioAPI } from 'cheerio'
+import { load } from 'cheerio'
 import { fetchHtml, sleep } from './lib/http'
 import { Entry, Race, WeekPayload } from './lib/types'
 import { extractRaceId, fetchRaceIdsForDate, guessCourse, extractHorseNumber, fetchHorseBrief } from './lib/netkeiba'
 
 // Data directories
 const ROOT = process.cwd()
-const DATA_DIR = path.join(ROOT, 'data')
+const DATA_DIR = path.join(ROOT, 'public', 'data')
 
 // Source
 const NETKEIBA_CALENDAR = 'https://race.netkeiba.com/top/calendar.html'
@@ -49,14 +49,7 @@ async function collectRaces(): Promise<any[]> {
           const race = await scrapeShutuba(shutubaUrl)
           if (!race) continue
           race.date = dateStr
-          // 予想スコア（簡易・再現性ある乱数）
-          for (const e of race.entries) {
-            const seed = `${race.raceId}_${e.horseNumber}`
-            const rng = Math.abs(Math.sin(hashCode(seed)))
-            e.predictionScore = Number(rng.toFixed(2))
-          }
-          race.entries.sort((a: any, b: any) => b.predictionScore - a.predictionScore)
-          race.entries.forEach((e: any, idx: number) => (e.predictionRank = idx + 1))
+          // 予想はフロント/外部で付与するため、ここでは設定しない
           allRaces.push(race)
           dayCount += 1
           processed += 1
