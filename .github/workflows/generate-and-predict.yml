@@ -8,8 +8,8 @@ on:
         required: false
         default: ""
   schedule:
-    # 毎週金曜 12:00 UTC（日本時間 21:00頃）。必要に応じて調整してください。
-    - cron: '0 12 * * 5'
+    # 毎週金曜 21:00 UTC（日本時間 土曜 06:00）
+    - cron: '0 21 * * 5'
 
 concurrency:
   group: pages
