@@ -1,0 +1,5505 @@
+{
+  "generatedAt": "2026-01-02T21:17:33.144Z",
+  "week": "2026-01-03",
+  "sources": {
+    "netkeibaCalendar": "https://race.netkeiba.com/top/calendar.html"
+  },
+  "races": [
+    {
+      "raceId": "202606010101",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010101",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010101"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010101_1",
+          "horseNumber": 1,
+          "name": "アクロスメモリア",
+          "sexAge": "牝3",
+          "jockey": "戸崎圭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102399/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010101_2",
+          "horseNumber": 2,
+          "name": "ウィザードオブマリ",
+          "sexAge": "牝3",
+          "jockey": "▲石田",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100805/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/04",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010101_3",
+          "horseNumber": 3,
+          "name": "ジーナグレイス",
+          "sexAge": "牝3",
+          "jockey": "丸山",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107385/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010101_4",
+          "horseNumber": 4,
+          "name": "タマモシルエット",
+          "sexAge": "牝3",
+          "jockey": "丹内",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103253/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010101_5",
+          "horseNumber": 5,
+          "name": "トウシンラヴ",
+          "sexAge": "牝3",
+          "jockey": "菅原明",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103100/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010101_6",
+          "horseNumber": 6,
+          "name": "バーヴァンシー",
+          "sexAge": "牝3",
+          "jockey": "▲舟山",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104394/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/29",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010101_7",
+          "horseNumber": 7,
+          "name": "ファストワーカー",
+          "sexAge": "牝3",
+          "jockey": "菊沢",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100239/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/11",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010101_8",
+          "horseNumber": 8,
+          "name": "フュルスティン",
+          "sexAge": "牝3",
+          "jockey": "横山武",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100583/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010101_9",
+          "horseNumber": 9,
+          "name": "プラチナムディスク",
+          "sexAge": "牝3",
+          "jockey": "△長浜",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102383/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010101_11",
+          "horseNumber": 11,
+          "name": "フロリスタン",
+          "sexAge": "牝3",
+          "jockey": "原田和",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023109013/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/11",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010101_12",
+          "horseNumber": 12,
+          "name": "マメーアップル",
+          "sexAge": "牝3",
+          "jockey": "▲小林美",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100924/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010101_13",
+          "horseNumber": 13,
+          "name": "マリノレーヴェ",
+          "sexAge": "牝3",
+          "jockey": "横山琉",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100807/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010101_14",
+          "horseNumber": 14,
+          "name": "ミルトメロディー",
+          "sexAge": "牝3",
+          "jockey": "原",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100397/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010101_17",
+          "horseNumber": 17,
+          "name": "メインテーマ",
+          "sexAge": "牝3",
+          "jockey": "内田博",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103571/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010101_15",
+          "horseNumber": 15,
+          "name": "ラストシャイニー",
+          "sexAge": "牝3",
+          "jockey": "矢野貴",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105803/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/04",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010101_16",
+          "horseNumber": 16,
+          "name": "レースクイーン",
+          "sexAge": "牝3",
+          "jockey": "江田照",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101563/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/11",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010102",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010102",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010102"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010102_1",
+          "horseNumber": 1,
+          "name": "インスウィング",
+          "sexAge": "",
+          "jockey": "原",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101444/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010102_18",
+          "horseNumber": 18,
+          "name": "オルブライト",
+          "sexAge": "牡3",
+          "jockey": "大野",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101644/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010102_4",
+          "horseNumber": 4,
+          "name": "クラウンプレゼンタ",
+          "sexAge": "牡3",
+          "jockey": "内田博",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100795/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010102_19",
+          "horseNumber": 19,
+          "name": "クリュメノス",
+          "sexAge": "牡3",
+          "jockey": "▲石田",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102107/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010102_8",
+          "horseNumber": 8,
+          "name": "ゴーフォアブローク",
+          "sexAge": "牡3",
+          "jockey": "△長浜",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100629/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010102_20",
+          "horseNumber": 20,
+          "name": "シンエンドーツダ",
+          "sexAge": "牡3",
+          "jockey": "菊沢",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103621/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010102_11",
+          "horseNumber": 11,
+          "name": "タイガーゲイト",
+          "sexAge": "牡3",
+          "jockey": "丹内",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102964/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010102_12",
+          "horseNumber": 12,
+          "name": "タニセンローマ",
+          "sexAge": "牡3",
+          "jockey": "岩田康",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101095/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010102_21",
+          "horseNumber": 21,
+          "name": "トーセンシーギリヤ",
+          "sexAge": "牡3",
+          "jockey": "原田和",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100588/",
+          "horseBrief": {
+            "lastResultDate": "2025/07/19",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010102_14",
+          "horseNumber": 14,
+          "name": "ニシノモリミチ",
+          "sexAge": "牡3",
+          "jockey": "菅原明",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100362/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202606010102_16",
+          "horseNumber": 16,
+          "name": "フィンガー",
+          "sexAge": "牡3",
+          "jockey": "戸崎圭",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102813/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/24",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010102_17",
+          "horseNumber": 17,
+          "name": "ブルージェネシス",
+          "sexAge": "牡3",
+          "jockey": "荻野極",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101798/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/09",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010102_22",
+          "horseNumber": 22,
+          "name": "モリインビクタス",
+          "sexAge": "牡3",
+          "jockey": "▲遠藤",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106582/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "葉牡丹賞(1勝クラス)",
+            "lastFinish": "9"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010103",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010103",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010103"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010103_7",
+          "horseNumber": 7,
+          "name": "アスクホープマン",
+          "sexAge": "牡3",
+          "jockey": "▲小林美",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106398/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_9",
+          "horseNumber": 9,
+          "name": "アンチェーン",
+          "sexAge": "牝3",
+          "jockey": "三浦",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104668/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_10",
+          "horseNumber": 10,
+          "name": "イセッセイ",
+          "sexAge": "牝3",
+          "jockey": "▲遠藤",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106294/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_11",
+          "horseNumber": 11,
+          "name": "エアサロメ",
+          "sexAge": "牝3",
+          "jockey": "矢野貴",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103341/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_12",
+          "horseNumber": 12,
+          "name": "エールオンマインド",
+          "sexAge": "牡3",
+          "jockey": "西村太",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104147/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_14",
+          "horseNumber": 14,
+          "name": "シンクシビリティ",
+          "sexAge": "牝3",
+          "jockey": "原",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101349/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_16",
+          "horseNumber": 16,
+          "name": "スナップジジ",
+          "sexAge": "牡3",
+          "jockey": "原田和",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101469/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_25",
+          "horseNumber": 25,
+          "name": "ティスマイル",
+          "sexAge": "牝3",
+          "jockey": "丹内",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101205/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_19",
+          "horseNumber": 19,
+          "name": "ディルガーム",
+          "sexAge": "牡3",
+          "jockey": "横山武",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107301/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_20",
+          "horseNumber": 20,
+          "name": "デザートイーグル",
+          "sexAge": "牡3",
+          "jockey": "荻野極",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106675/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_21",
+          "horseNumber": 21,
+          "name": "ニシノラン",
+          "sexAge": "牡3",
+          "jockey": "田辺",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104696/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_22",
+          "horseNumber": 22,
+          "name": "ファイナルフォーム",
+          "sexAge": "牡3",
+          "jockey": "▲石神道",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023109038/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_24",
+          "horseNumber": 24,
+          "name": "ブロッコロ",
+          "sexAge": "牝3",
+          "jockey": "小林脩",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100999/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_26",
+          "horseNumber": 26,
+          "name": "ベセル",
+          "sexAge": "牡3",
+          "jockey": "菊沢",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103048/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_2",
+          "horseNumber": 2,
+          "name": "ボビネット",
+          "sexAge": "牝3",
+          "jockey": "吉田豊",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102368/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010103_5",
+          "horseNumber": 5,
+          "name": "マイニオサラスタス",
+          "sexAge": "牝3",
+          "jockey": "△長浜",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104853/",
+          "horseBrief": {}
+        }
+      ]
+    },
+    {
+      "raceId": "202606010104",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010104",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010104"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010104_6",
+          "horseNumber": 6,
+          "name": "アラビアンドリーム",
+          "sexAge": "牡3",
+          "jockey": "横山武",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102398/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010104_1",
+          "horseNumber": 1,
+          "name": "オーパパ",
+          "sexAge": "牡3",
+          "jockey": "横山琉",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103915/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010104_7",
+          "horseNumber": 7,
+          "name": "カシマライフウ",
+          "sexAge": "牡3",
+          "jockey": "松岡",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105439/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010104_8",
+          "horseNumber": 8,
+          "name": "ガーディアンテイル",
+          "sexAge": "牡3",
+          "jockey": "内田博",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106958/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010104_2",
+          "horseNumber": 2,
+          "name": "コイオステソーロ",
+          "sexAge": "牡3",
+          "jockey": "菅原明",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104193/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010104_9",
+          "horseNumber": 9,
+          "name": "コスモラムバック",
+          "sexAge": "牡3",
+          "jockey": "丹内",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106452/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010104_10",
+          "horseNumber": 10,
+          "name": "コパノミラノ",
+          "sexAge": "牡3",
+          "jockey": "柴田大",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101578/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010104_11",
+          "horseNumber": 11,
+          "name": "サトノリシャール",
+          "sexAge": "牡3",
+          "jockey": "岩田康",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103894/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010104_12",
+          "horseNumber": 12,
+          "name": "シャトーベスト",
+          "sexAge": "牡3",
+          "jockey": "原田和",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106374/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010104_13",
+          "horseNumber": 13,
+          "name": "ニシノロッドマン",
+          "sexAge": "牡3",
+          "jockey": "野中",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104706/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/09",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010104_14",
+          "horseNumber": 14,
+          "name": "パラダイスフェイス",
+          "sexAge": "牡3",
+          "jockey": "丸山",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104103/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010104_15",
+          "horseNumber": 15,
+          "name": "マオノムサシ",
+          "sexAge": "牡3",
+          "jockey": "荻野琢",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101278/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010105",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010105",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010105"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010105_7",
+          "horseNumber": 7,
+          "name": "エルミー",
+          "sexAge": "牝3",
+          "jockey": "菅原明",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103898/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/13",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010105_9",
+          "horseNumber": 9,
+          "name": "オーシャンドリーム",
+          "sexAge": "牝3",
+          "jockey": "▲石神道",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106154/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/13",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010105_11",
+          "horseNumber": 11,
+          "name": "コスモシグルン",
+          "sexAge": "牝3",
+          "jockey": "柴田大",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101040/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202606010105_12",
+          "horseNumber": 12,
+          "name": "ソロイノシタク",
+          "sexAge": "牝3",
+          "jockey": "△長浜",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101473/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/05",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010105_13",
+          "horseNumber": 13,
+          "name": "タイセイアストロ",
+          "sexAge": "牡3",
+          "jockey": "杉原",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103917/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010105_25",
+          "horseNumber": 25,
+          "name": "チェリーブルーム",
+          "sexAge": "牝3",
+          "jockey": "▲石田",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101675/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010105_14",
+          "horseNumber": 14,
+          "name": "ディアファニス",
+          "sexAge": "牝3",
+          "jockey": "田辺",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105475/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/04",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010105_15",
+          "horseNumber": 15,
+          "name": "ナイスプレーアスク",
+          "sexAge": "牝3",
+          "jockey": "荻野極",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105420/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/28",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202606010105_16",
+          "horseNumber": 16,
+          "name": "ニシノマーレ",
+          "sexAge": "牝3",
+          "jockey": "津村",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100179/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010105_18",
+          "horseNumber": 18,
+          "name": "ブラーヴジャン",
+          "sexAge": "牡3",
+          "jockey": "丹内",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103238/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/19",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010105_19",
+          "horseNumber": 19,
+          "name": "ベアサナエチャン",
+          "sexAge": "牝3",
+          "jockey": "横山武",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106829/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010105_23",
+          "horseNumber": 23,
+          "name": "ミナヅキ",
+          "sexAge": "牡3",
+          "jockey": "石橋脩",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105449/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010105_2",
+          "horseNumber": 2,
+          "name": "モウエエデショー",
+          "sexAge": "牡3",
+          "jockey": "原田和",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105433/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010105_3",
+          "horseNumber": 3,
+          "name": "ユイノナナフシギ",
+          "sexAge": "牡3",
+          "jockey": "長岡",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105432/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/07",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010105_6",
+          "horseNumber": 6,
+          "name": "レヴェランジェ",
+          "sexAge": "牝3",
+          "jockey": "戸崎圭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103694/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202606010105_26",
+          "horseNumber": 26,
+          "name": "ロッククライム",
+          "sexAge": "牡3",
+          "jockey": "矢野貴",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106473/",
+          "horseBrief": {}
+        }
+      ]
+    },
+    {
+      "raceId": "202606010106",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010106",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010106"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010106_1",
+          "horseNumber": 1,
+          "name": "アオゾラランチ",
+          "sexAge": "牝3",
+          "jockey": "吉田豊",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103377/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_2",
+          "horseNumber": 2,
+          "name": "アルタティール",
+          "sexAge": "牡3",
+          "jockey": "△長浜",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104926/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_3",
+          "horseNumber": 3,
+          "name": "オービタルピリオド",
+          "sexAge": "牡3",
+          "jockey": "石川",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106869/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_4",
+          "horseNumber": 4,
+          "name": "カズシ",
+          "sexAge": "牡3",
+          "jockey": "▲遠藤",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102662/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_5",
+          "horseNumber": 5,
+          "name": "クラックミーアップ",
+          "sexAge": "牡3",
+          "jockey": "松岡",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104463/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_6",
+          "horseNumber": 6,
+          "name": "サトノリアファル",
+          "sexAge": "牡3",
+          "jockey": "北村宏",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105260/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_7",
+          "horseNumber": 7,
+          "name": "ダイナソーコー",
+          "sexAge": "牡3",
+          "jockey": "荻野極",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103548/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_8",
+          "horseNumber": 8,
+          "name": "ダイビングキャッチ",
+          "sexAge": "牡3",
+          "jockey": "菅原明",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103476/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_9",
+          "horseNumber": 9,
+          "name": "タカイチアメリカン",
+          "sexAge": "牡3",
+          "jockey": "▲石田",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100244/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_10",
+          "horseNumber": 10,
+          "name": "ドウカキミニトドケ",
+          "sexAge": "牝3",
+          "jockey": "戸崎圭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100930/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_11",
+          "horseNumber": 11,
+          "name": "トップオブザライン",
+          "sexAge": "牡3",
+          "jockey": "三浦",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105338/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_12",
+          "horseNumber": 12,
+          "name": "トライアンドエラー",
+          "sexAge": "牝3",
+          "jockey": "岩田康",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106776/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_13",
+          "horseNumber": 13,
+          "name": "ベイツリー",
+          "sexAge": "牡3",
+          "jockey": "▲舟山",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106853/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_14",
+          "horseNumber": 14,
+          "name": "マイネルラジェム",
+          "sexAge": "牡3",
+          "jockey": "丹内",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106424/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_16",
+          "horseNumber": 16,
+          "name": "ルシアージュ",
+          "sexAge": "牝3",
+          "jockey": "内田博",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106795/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_18",
+          "horseNumber": 18,
+          "name": "ルベライトテソーロ",
+          "sexAge": "牝3",
+          "jockey": "原",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106731/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202606010106_17",
+          "horseNumber": 17,
+          "name": "ロジマギー",
+          "sexAge": "牝3",
+          "jockey": "丸山",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107361/",
+          "horseBrief": {}
+        }
+      ]
+    },
+    {
+      "raceId": "202606010107",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010107",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010107"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010107_1",
+          "horseNumber": 1,
+          "name": "インテルメディオ",
+          "sexAge": "",
+          "jockey": "岩田康",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104922/",
+          "horseBrief": {
+            "lastResultDate": "2025/04/27",
+            "lastResultName": "4歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_2",
+          "horseNumber": 2,
+          "name": "カージオイド",
+          "sexAge": "牡4",
+          "jockey": "内田博",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104062/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_4",
+          "horseNumber": 4,
+          "name": "タキノボリ",
+          "sexAge": "牡4",
+          "jockey": "戸崎圭",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100320/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010107_18",
+          "horseNumber": 18,
+          "name": "ディースプレマシー",
+          "sexAge": "牡4",
+          "jockey": "石橋脩",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104312/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/23",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_5",
+          "horseNumber": 5,
+          "name": "テンミラージュ",
+          "sexAge": "牝4",
+          "jockey": "▲石神道",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105414/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/14",
+            "lastResultName": "3歳未勝利",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_6",
+          "horseNumber": 6,
+          "name": "ネオシルバー",
+          "sexAge": "牡5",
+          "jockey": "田辺",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106063/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010107_7",
+          "horseNumber": 7,
+          "name": "ノアヴィヴァーチェ",
+          "sexAge": "牡4",
+          "jockey": "矢野貴",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102446/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "大須特別(1勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202606010107_8",
+          "horseNumber": 8,
+          "name": "バタール",
+          "sexAge": "牡4",
+          "jockey": "荻野極",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104601/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010107_9",
+          "horseNumber": 9,
+          "name": "ハルノアラシ",
+          "sexAge": "牡4",
+          "jockey": "石川",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106099/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_10",
+          "horseNumber": 10,
+          "name": "ピコブルー",
+          "sexAge": "牡4",
+          "jockey": "原",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022101739/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/12",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_12",
+          "horseNumber": 12,
+          "name": "ブレゲアン",
+          "sexAge": "牡4",
+          "jockey": "三浦",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106951/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/14",
+            "lastResultName": "3歳未勝利",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010107_13",
+          "horseNumber": 13,
+          "name": "ブレードサクセス",
+          "sexAge": "牡5",
+          "jockey": "丹内",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021103376/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202606010107_14",
+          "horseNumber": 14,
+          "name": "ホウオウサムレット",
+          "sexAge": "牡4",
+          "jockey": "▲舟山",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104969/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_19",
+          "horseNumber": 19,
+          "name": "マイネルレグルス",
+          "sexAge": "牡5",
+          "jockey": "柴田大",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106821/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "ヤングJSFR中京1(1勝クラス)",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010107_15",
+          "horseNumber": 15,
+          "name": "ミヤジテン",
+          "sexAge": "牝5",
+          "jockey": "丸田",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021102531/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010107_16",
+          "horseNumber": 16,
+          "name": "ラムゼイテソーロ",
+          "sexAge": "牡5",
+          "jockey": "菊沢",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100579/",
+          "horseBrief": {
+            "lastResultDate": "2025/01/25",
+            "lastResultName": "4歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010108",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010108",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010108"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010108_1",
+          "horseNumber": 1,
+          "name": "アイドル",
+          "sexAge": "牝4",
+          "jockey": "荻野極",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105966/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010108_2",
+          "horseNumber": 2,
+          "name": "オオゾラヒバリ",
+          "sexAge": "牝5",
+          "jockey": "野中",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021101793/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/08",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010108_3",
+          "horseNumber": 3,
+          "name": "クイーンアポーン",
+          "sexAge": "牝7",
+          "jockey": "丸山",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019104128/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/08",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202606010108_4",
+          "horseNumber": 4,
+          "name": "シンガソング",
+          "sexAge": "牝4",
+          "jockey": "▲小林美",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022107300/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/26",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010108_5",
+          "horseNumber": 5,
+          "name": "スマイルディシー",
+          "sexAge": "牝4",
+          "jockey": "▲石田",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104271/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/24",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010108_7",
+          "horseNumber": 7,
+          "name": "デルマエアロール",
+          "sexAge": "牝4",
+          "jockey": "杉原",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105535/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010108_8",
+          "horseNumber": 8,
+          "name": "トキメキジニア",
+          "sexAge": "牝4",
+          "jockey": "菊沢",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100323/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/23",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202606010108_9",
+          "horseNumber": 9,
+          "name": "パレスドフィーヌ",
+          "sexAge": "牝5",
+          "jockey": "津村",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105373/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010108_10",
+          "horseNumber": 10,
+          "name": "ヒットミー",
+          "sexAge": "牝4",
+          "jockey": "△長浜",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104394/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/12",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010108_11",
+          "horseNumber": 11,
+          "name": "ブエナディオサ",
+          "sexAge": "牝7",
+          "jockey": "柴田善",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019106938/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010108_12",
+          "horseNumber": 12,
+          "name": "フォンメイリー",
+          "sexAge": "牝7",
+          "jockey": "▲上里",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019105287/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202606010108_13",
+          "horseNumber": 13,
+          "name": "フラッシュポイント",
+          "sexAge": "牝4",
+          "jockey": "横山武",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104609/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010108_14",
+          "horseNumber": 14,
+          "name": "ブルスケッタ",
+          "sexAge": "牝5",
+          "jockey": "▲佐藤",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100410/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/30",
+            "lastResultName": "マルチフェア特別(B2B3)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010108_15",
+          "horseNumber": 15,
+          "name": "ラヴァグロウ",
+          "sexAge": "牝6",
+          "jockey": "丸田",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020103937/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010108_17",
+          "horseNumber": 17,
+          "name": "ルーフオブヘヴン",
+          "sexAge": "牝5",
+          "jockey": "▲石神道",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104874/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010108_18",
+          "horseNumber": 18,
+          "name": "レインボーラッキー",
+          "sexAge": "牝4",
+          "jockey": "横山琉",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106324/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/15",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010109",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010109",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010109"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010109_8",
+          "horseNumber": 8,
+          "name": "アスクデビューモア",
+          "sexAge": "牡5",
+          "jockey": "岩田康",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104824/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "天橋立S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_4",
+          "horseNumber": 4,
+          "name": "アンジュフィールド",
+          "sexAge": "牝6",
+          "jockey": "三浦",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020101582/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "御影S(3勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202606010109_6",
+          "horseNumber": 6,
+          "name": "ウィステリアリヴァ",
+          "sexAge": "牡6",
+          "jockey": "石橋脩",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020104708/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "市川S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_3",
+          "horseNumber": 3,
+          "name": "カネトシブルーム",
+          "sexAge": "牡7",
+          "jockey": "柴田大",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019106475/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/27",
+            "lastResultName": "摩耶S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_7",
+          "horseNumber": 7,
+          "name": "ギーロカスタル",
+          "sexAge": "牡6",
+          "jockey": "原",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020104845/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "北総S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_1",
+          "horseNumber": 1,
+          "name": "グランツアーテム",
+          "sexAge": "牡8",
+          "jockey": "荻野極",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018106693/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "北総S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_10",
+          "horseNumber": 10,
+          "name": "ゴールドアローン",
+          "sexAge": "牝5",
+          "jockey": "菊沢",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106874/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "北総S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_9",
+          "horseNumber": 9,
+          "name": "タンゴバイラリン",
+          "sexAge": "",
+          "jockey": "菅原明",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105272/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/11",
+            "lastResultName": "御陵S(3勝クラス)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010109_2",
+          "horseNumber": 2,
+          "name": "デコラシオン",
+          "sexAge": "牡7",
+          "jockey": "戸崎圭",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019104805/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "北総S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_11",
+          "horseNumber": 11,
+          "name": "バギーウィップ",
+          "sexAge": "牡4",
+          "jockey": "武藤",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102987/",
+          "horseBrief": {
+            "lastResultDate": "2025/06/22",
+            "lastResultName": "檜山特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010109_5",
+          "horseNumber": 5,
+          "name": "リバートゥルー",
+          "sexAge": "牝6",
+          "jockey": "吉田豊",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020102703/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "トルマリンS(3勝クラス)",
+            "lastFinish": "11"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010110",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010110",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010110"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010110_3",
+          "horseNumber": 3,
+          "name": "オーライカモン",
+          "sexAge": "牡3",
+          "jockey": "横山武",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105011/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "こうやまき賞(1勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202606010110_1",
+          "horseNumber": 1,
+          "name": "グランセレスト",
+          "sexAge": "牡3",
+          "jockey": "三浦",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100953/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/30",
+            "lastResultName": "ベゴニア賞(1勝クラス)",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010110_9",
+          "horseNumber": 9,
+          "name": "コスモギガンティア",
+          "sexAge": "牡3",
+          "jockey": "矢野貴",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106492/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/17",
+            "lastResultName": "全日本2歳優駿【国際(JpnI)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010110_8",
+          "horseNumber": 8,
+          "name": "サレジオ",
+          "sexAge": "牡3",
+          "jockey": "戸崎圭",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107014/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/24",
+            "lastResultName": "東京スポーツ杯2歳S(GII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010110_2",
+          "horseNumber": 2,
+          "name": "ジーティーシンドウ",
+          "sexAge": "牡3",
+          "jockey": "菅原明",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102083/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202606010110_6",
+          "horseNumber": 6,
+          "name": "フレンドモナコ",
+          "sexAge": "牡3",
+          "jockey": "吉田豊",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106197/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "報知杯クリスマスRS(OP)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202606010110_4",
+          "horseNumber": 4,
+          "name": "マーゴットブロー",
+          "sexAge": "牡3",
+          "jockey": "荻野極",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105356/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "寒椿賞(1勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202606010110_7",
+          "horseNumber": 7,
+          "name": "リゾートアイランド",
+          "sexAge": "牡3",
+          "jockey": "津村",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106916/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "ひいらぎ賞(1勝クラス)",
+            "lastFinish": "9"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010111",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010111",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010111"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010111_10",
+          "horseNumber": 10,
+          "name": "アンゴラブラック",
+          "sexAge": "牝5",
+          "jockey": "戸崎圭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105738/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/12",
+            "lastResultName": "アイルランドT(GII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_11",
+          "horseNumber": 11,
+          "name": "ウエストナウ",
+          "sexAge": "牡5",
+          "jockey": "荻野極",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106645/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "鳴尾記念(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_14",
+          "horseNumber": 14,
+          "name": "カネラフィーナ",
+          "sexAge": "牝4",
+          "jockey": "石川",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104839/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/19",
+            "lastResultName": "新潟牝馬S(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_15",
+          "horseNumber": 15,
+          "name": "カラマティアノス",
+          "sexAge": "牡4",
+          "jockey": "津村",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104896/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "ペルセウスS(OP)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_4",
+          "horseNumber": 4,
+          "name": "グランディア",
+          "sexAge": "",
+          "jockey": "横山武",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019105302/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "ディセンバーS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_2",
+          "horseNumber": 2,
+          "name": "ケイアイセナ",
+          "sexAge": "牡7",
+          "jockey": "吉田隼",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019100318/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/17",
+            "lastResultName": "札幌記念(GII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_9",
+          "horseNumber": 9,
+          "name": "シリウスコルト",
+          "sexAge": "牡5",
+          "jockey": "三浦",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104094/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/22",
+            "lastResultName": "福島記念(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_16",
+          "horseNumber": 16,
+          "name": "ニシノエージェント",
+          "sexAge": "牡4",
+          "jockey": "田辺",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106155/",
+          "horseBrief": {
+            "lastResultDate": "2025/06/01",
+            "lastResultName": "東京優駿(GI)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_8",
+          "horseNumber": 8,
+          "name": "ピースワンデュック",
+          "sexAge": "牡5",
+          "jockey": "柴田善",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021101134/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "中日新聞杯(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_5",
+          "horseNumber": 5,
+          "name": "ブランデーロック",
+          "sexAge": "牡7",
+          "jockey": "原",
+          "weight": 51,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019107075/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/09",
+            "lastResultName": "イクイノックスM(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010111_12",
+          "horseNumber": 12,
+          "name": "マイネルオーシャン",
+          "sexAge": "牡5",
+          "jockey": "矢野貴",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106766/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "常総S(3勝クラス)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_7",
+          "horseNumber": 7,
+          "name": "マイネルモーント",
+          "sexAge": "牡6",
+          "jockey": "丹内",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020105749/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "中日新聞杯(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_3",
+          "horseNumber": 3,
+          "name": "リカンカブール",
+          "sexAge": "",
+          "jockey": "菅原明",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019103823/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/22",
+            "lastResultName": "福島記念(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202606010111_1",
+          "horseNumber": 1,
+          "name": "リフレーミング",
+          "sexAge": "牡8",
+          "jockey": "石橋脩",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018104225/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "中日新聞杯(GIII)",
+            "lastFinish": "11"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202606010112",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202606010112",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202606010112"
+      },
+      "entries": [
+        {
+          "horseId": "h_202606010112_1",
+          "horseNumber": 1,
+          "name": "ヴィクトリーロード",
+          "sexAge": "牡6",
+          "jockey": "菊沢",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020103931/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010112_2",
+          "horseNumber": 2,
+          "name": "ヴェルトラウム",
+          "sexAge": "",
+          "jockey": "武藤",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104903/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/20",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010112_3",
+          "horseNumber": 3,
+          "name": "クラリティスケール",
+          "sexAge": "牝7",
+          "jockey": "石川",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019103442/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/17",
+            "lastResultName": "大通公園特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010112_4",
+          "horseNumber": 4,
+          "name": "グリーンライズ",
+          "sexAge": "",
+          "jockey": "原田和",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019102421/",
+          "horseBrief": {
+            "lastResultDate": "2025/05/18",
+            "lastResultName": "青梅特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010112_5",
+          "horseNumber": 5,
+          "name": "ケープアグラス",
+          "sexAge": "牝5",
+          "jockey": "伊藤",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100382/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010112_6",
+          "horseNumber": 6,
+          "name": "コスタデラルス",
+          "sexAge": "牡4",
+          "jockey": "▲石神道",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022107309/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/24",
+            "lastResultName": "野菊特別競走(C1三)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010112_7",
+          "horseNumber": 7,
+          "name": "ジャスパーソレイユ",
+          "sexAge": "牡4",
+          "jockey": "丸山",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022110111/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010112_8",
+          "horseNumber": 8,
+          "name": "ショウナンハクウン",
+          "sexAge": "牡6",
+          "jockey": "荻野極",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020103670/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010112_9",
+          "horseNumber": 9,
+          "name": "スリーピース",
+          "sexAge": "",
+          "jockey": "三浦",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104972/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010112_10",
+          "horseNumber": 10,
+          "name": "タイセイピューマ",
+          "sexAge": "牡5",
+          "jockey": "▲石田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106119/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010112_11",
+          "horseNumber": 11,
+          "name": "テセラリアン",
+          "sexAge": "牝5",
+          "jockey": "菅原明",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100338/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202606010112_12",
+          "horseNumber": 12,
+          "name": "バンブトンプロ",
+          "sexAge": "牡6",
+          "jockey": "柴田大",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020106562/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "中京日経賞(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010112_13",
+          "horseNumber": 13,
+          "name": "ヒストリアイ",
+          "sexAge": "",
+          "jockey": "原",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021110062/",
+          "horseBrief": {
+            "lastResultDate": "2025/07/13",
+            "lastResultName": "噴火湾特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202606010112_16",
+          "horseNumber": 16,
+          "name": "モリノセピア",
+          "sexAge": "牡5",
+          "jockey": "▲小林美",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106307/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202606010112_17",
+          "horseNumber": 17,
+          "name": "ラーナローザ",
+          "sexAge": "牝4",
+          "jockey": "▲大久保",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102785/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202606010112_20",
+          "horseNumber": 20,
+          "name": "ロッカバイベイビー",
+          "sexAge": "牝4",
+          "jockey": "▲佐藤",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103725/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/22",
+            "lastResultName": "福島放送賞(2勝クラス)",
+            "lastFinish": "10"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010101",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010101",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010101"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010101_1",
+          "horseNumber": 1,
+          "name": "アメジストブルー",
+          "sexAge": "牝3",
+          "jockey": "国分優",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104768/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/27",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010101_3",
+          "horseNumber": 3,
+          "name": "オリヒメボシ",
+          "sexAge": "牝3",
+          "jockey": "田口",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103612/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/25",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010101_4",
+          "horseNumber": 4,
+          "name": "クロカミジョウ",
+          "sexAge": "牝3",
+          "jockey": "菱田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101500/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/11",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010101_5",
+          "horseNumber": 5,
+          "name": "ケイアイブラック",
+          "sexAge": "牡3",
+          "jockey": "藤懸",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105761/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010101_16",
+          "horseNumber": 16,
+          "name": "シュトルムカイザー",
+          "sexAge": "",
+          "jockey": "国分恭",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103575/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010101_6",
+          "horseNumber": 6,
+          "name": "ジョーヴェスタ",
+          "sexAge": "牝3",
+          "jockey": "池添",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100287/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/20",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010101_7",
+          "horseNumber": 7,
+          "name": "ジーティーリボーン",
+          "sexAge": "牝3",
+          "jockey": "ハマーハン",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105353/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/05",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010101_8",
+          "horseNumber": 8,
+          "name": "ダイチノナポリ",
+          "sexAge": "牝3",
+          "jockey": "太宰",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023109106/",
+          "horseBrief": {
+            "lastResultDate": "2025/07/19",
+            "lastResultName": "ひまわり賞(OP)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010101_17",
+          "horseNumber": 17,
+          "name": "タナスーペルノーバ",
+          "sexAge": "牡3",
+          "jockey": "◇今村",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102661/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010101_18",
+          "horseNumber": 18,
+          "name": "テーオーアンジェラ",
+          "sexAge": "牝3",
+          "jockey": "西村淳",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107378/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/05",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010101_19",
+          "horseNumber": 19,
+          "name": "バンダムソレール",
+          "sexAge": "牡3",
+          "jockey": "和田竜",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102317/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/26",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010101_10",
+          "horseNumber": 10,
+          "name": "ビスケットアソート",
+          "sexAge": "牡3",
+          "jockey": "富田",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103517/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010101_11",
+          "horseNumber": 11,
+          "name": "マクアケ",
+          "sexAge": "牡3",
+          "jockey": "鮫島駿",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100452/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010101_12",
+          "horseNumber": 12,
+          "name": "ミラヴェリタ",
+          "sexAge": "牝3",
+          "jockey": "吉村",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107521/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010101_14",
+          "horseNumber": 14,
+          "name": "リーグナイト",
+          "sexAge": "牡3",
+          "jockey": "▲田山",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106284/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010101_15",
+          "horseNumber": 15,
+          "name": "ワイドアルバ",
+          "sexAge": "牡3",
+          "jockey": "松若",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106359/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/24",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010102",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010102",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010102"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010102_6",
+          "horseNumber": 6,
+          "name": "アミラル",
+          "sexAge": "牡3",
+          "jockey": "▲田山",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104682/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010102_8",
+          "horseNumber": 8,
+          "name": "エコログレン",
+          "sexAge": "牡3",
+          "jockey": "国分恭",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023110060/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010102_12",
+          "horseNumber": 12,
+          "name": "サニーサイドラガー",
+          "sexAge": "牡3",
+          "jockey": "鮫島駿",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104236/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/27",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010102_13",
+          "horseNumber": 13,
+          "name": "サマーナジュム",
+          "sexAge": "牡3",
+          "jockey": "☆松本",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104379/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010102_14",
+          "horseNumber": 14,
+          "name": "サンライズナスカ",
+          "sexAge": "牡3",
+          "jockey": "藤懸",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100945/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/09",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010102_15",
+          "horseNumber": 15,
+          "name": "サンライズフリード",
+          "sexAge": "牡3",
+          "jockey": "城戸",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100902/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010102_24",
+          "horseNumber": 24,
+          "name": "タガノエルー",
+          "sexAge": "牡3",
+          "jockey": "秋山稔",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104324/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010102_16",
+          "horseNumber": 16,
+          "name": "テイエムテンジン",
+          "sexAge": "牡3",
+          "jockey": "国分優",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101329/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202608010102_17",
+          "horseNumber": 17,
+          "name": "ディープシャロー",
+          "sexAge": "牡3",
+          "jockey": "古川吉",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100621/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202608010102_18",
+          "horseNumber": 18,
+          "name": "ナウオアネヴァー",
+          "sexAge": "牡3",
+          "jockey": "高杉",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104408/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010102_20",
+          "horseNumber": 20,
+          "name": "ハオカノア",
+          "sexAge": "牡3",
+          "jockey": "小崎",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106078/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010102_21",
+          "horseNumber": 21,
+          "name": "ピエナオルカ",
+          "sexAge": "牡3",
+          "jockey": "★河原田",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100715/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010102_1",
+          "horseNumber": 1,
+          "name": "ムソウテンセイ",
+          "sexAge": "牡3",
+          "jockey": "和田竜",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107472/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010102_3",
+          "horseNumber": 3,
+          "name": "リアライズグリント",
+          "sexAge": "牡3",
+          "jockey": "坂井",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103720/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/12",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010102_4",
+          "horseNumber": 4,
+          "name": "ロジャートアリー",
+          "sexAge": "牡3",
+          "jockey": "富田",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104990/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010102_5",
+          "horseNumber": 5,
+          "name": "ロードファイター",
+          "sexAge": "牡3",
+          "jockey": "西村淳",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100430/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010103",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010103",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010103"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010103_13",
+          "horseNumber": 13,
+          "name": "アニマレイ",
+          "sexAge": "牡3",
+          "jockey": "川田",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105279/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/24",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010103_16",
+          "horseNumber": 16,
+          "name": "オプティモ",
+          "sexAge": "牡3",
+          "jockey": "吉村",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104805/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010103_18",
+          "horseNumber": 18,
+          "name": "グレートアゲイン",
+          "sexAge": "牡3",
+          "jockey": "鮫島駿",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100567/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010103_19",
+          "horseNumber": 19,
+          "name": "ココラッシー",
+          "sexAge": "牡3",
+          "jockey": "ハマーハン",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104040/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010103_20",
+          "horseNumber": 20,
+          "name": "サマーブリザード",
+          "sexAge": "牡3",
+          "jockey": "☆西塚",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104692/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010103_22",
+          "horseNumber": 22,
+          "name": "サンタカリス",
+          "sexAge": "牝3",
+          "jockey": "田口",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100986/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010103_23",
+          "horseNumber": 23,
+          "name": "ジャーナーリア",
+          "sexAge": "牡3",
+          "jockey": "和田竜",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100596/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010103_27",
+          "horseNumber": 27,
+          "name": "セレブトーチ",
+          "sexAge": "牝3",
+          "jockey": "西村淳",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105833/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/30",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202608010103_1",
+          "horseNumber": 1,
+          "name": "トーアウィリアム",
+          "sexAge": "牡3",
+          "jockey": "▲森田",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103848/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010103_3",
+          "horseNumber": 3,
+          "name": "ハードシングス",
+          "sexAge": "牡3",
+          "jockey": "松若",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103151/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010103_4",
+          "horseNumber": 4,
+          "name": "フリッシュ",
+          "sexAge": "牡3",
+          "jockey": "藤懸",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101231/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010103_7",
+          "horseNumber": 7,
+          "name": "ムスクレスト",
+          "sexAge": "牡3",
+          "jockey": "武豊",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104402/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010103_8",
+          "horseNumber": 8,
+          "name": "メイショウバルク",
+          "sexAge": "牡3",
+          "jockey": "松山",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101951/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010103_9",
+          "horseNumber": 9,
+          "name": "モズプリフォール",
+          "sexAge": "牡3",
+          "jockey": "坂井",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105738/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010103_10",
+          "horseNumber": 10,
+          "name": "ユウトザケンケン",
+          "sexAge": "牡3",
+          "jockey": "小崎",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107450/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/05",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "1"
+          }
+        },
+        {
+          "horseId": "h_202608010103_12",
+          "horseNumber": 12,
+          "name": "ルーセントムーン",
+          "sexAge": "牡3",
+          "jockey": "斎藤",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100690/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/24",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010104",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010104",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010104"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010104_1",
+          "horseNumber": 1,
+          "name": "ウインアレグロ",
+          "sexAge": "牝3",
+          "jockey": "国分恭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105882/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_2",
+          "horseNumber": 2,
+          "name": "ウインモンクール",
+          "sexAge": "牡3",
+          "jockey": "松山",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105889/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_3",
+          "horseNumber": 3,
+          "name": "ヴォメロ",
+          "sexAge": "牝3",
+          "jockey": "池添",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103868/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_4",
+          "horseNumber": 4,
+          "name": "ウォーターハクビ",
+          "sexAge": "牡3",
+          "jockey": "△鷲頭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101665/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_5",
+          "horseNumber": 5,
+          "name": "エナジーイッセイ",
+          "sexAge": "牝3",
+          "jockey": "鮫島駿",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105735/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_7",
+          "horseNumber": 7,
+          "name": "シャイニーデイ",
+          "sexAge": "牡3",
+          "jockey": "☆松本",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100492/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_8",
+          "horseNumber": 8,
+          "name": "ジュンクロノシップ",
+          "sexAge": "牡3",
+          "jockey": "和田竜",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104586/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_9",
+          "horseNumber": 9,
+          "name": "ショーライトイヤー",
+          "sexAge": "牡3",
+          "jockey": "武豊",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105019/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_10",
+          "horseNumber": 10,
+          "name": "ハイビッグゴールド",
+          "sexAge": "牡3",
+          "jockey": "△柴田裕",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102773/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_11",
+          "horseNumber": 11,
+          "name": "ハイロード",
+          "sexAge": "牡3",
+          "jockey": "国分優",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102761/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_12",
+          "horseNumber": 12,
+          "name": "ペイシャプル",
+          "sexAge": "牡3",
+          "jockey": "◇永島",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102998/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010104_13",
+          "horseNumber": 13,
+          "name": "レッドジェンマ",
+          "sexAge": "牡3",
+          "jockey": "岡田",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103614/",
+          "horseBrief": {}
+        }
+      ]
+    },
+    {
+      "raceId": "202608010105",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010105",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010105"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010105_1",
+          "horseNumber": 1,
+          "name": "アンフルラージュ",
+          "sexAge": "牝3",
+          "jockey": "小沢",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104695/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_2",
+          "horseNumber": 2,
+          "name": "ウィスカーパッド",
+          "sexAge": "牝3",
+          "jockey": "高杉",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103380/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_3",
+          "horseNumber": 3,
+          "name": "エイカイコバチ",
+          "sexAge": "牝3",
+          "jockey": "☆西塚",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023107144/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_4",
+          "horseNumber": 4,
+          "name": "エクセレンプライム",
+          "sexAge": "牝3",
+          "jockey": "富田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106668/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_5",
+          "horseNumber": 5,
+          "name": "エレノアサンライズ",
+          "sexAge": "牝3",
+          "jockey": "菱田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106552/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_7",
+          "horseNumber": 7,
+          "name": "オーブフレッシュ",
+          "sexAge": "牝3",
+          "jockey": "西村淳",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100990/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_20",
+          "horseNumber": 20,
+          "name": "ガルフコースト",
+          "sexAge": "牡3",
+          "jockey": "武豊",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101395/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_8",
+          "horseNumber": 8,
+          "name": "キャスパン",
+          "sexAge": "牝3",
+          "jockey": "▲川端",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106639/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_9",
+          "horseNumber": 9,
+          "name": "クータモ",
+          "sexAge": "牡3",
+          "jockey": "鮫島駿",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104407/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_10",
+          "horseNumber": 10,
+          "name": "ゴルトミュンツェ",
+          "sexAge": "牝3",
+          "jockey": "亀田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101398/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_11",
+          "horseNumber": 11,
+          "name": "タイキルッジェーロ",
+          "sexAge": "牡3",
+          "jockey": "斎藤",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102178/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_13",
+          "horseNumber": 13,
+          "name": "フォーチュンライド",
+          "sexAge": "牝3",
+          "jockey": "川田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103343/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_14",
+          "horseNumber": 14,
+          "name": "プラウドブルーベル",
+          "sexAge": "牡3",
+          "jockey": "☆松本",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023104919/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_15",
+          "horseNumber": 15,
+          "name": "ブルーザー",
+          "sexAge": "牡3",
+          "jockey": "松山",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106218/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_16",
+          "horseNumber": 16,
+          "name": "プロスト",
+          "sexAge": "牡3",
+          "jockey": "松若",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023101677/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_17",
+          "horseNumber": 17,
+          "name": "ベラジオヴァレル",
+          "sexAge": "牡3",
+          "jockey": "岩田望",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103591/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_18",
+          "horseNumber": 18,
+          "name": "ボクサークラブ",
+          "sexAge": "牡3",
+          "jockey": "坂井",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103395/",
+          "horseBrief": {}
+        },
+        {
+          "horseId": "h_202608010105_19",
+          "horseNumber": 19,
+          "name": "レッドパラジウム",
+          "sexAge": "牡3",
+          "jockey": "吉村",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023105417/",
+          "horseBrief": {}
+        }
+      ]
+    },
+    {
+      "raceId": "202608010106",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010106",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010106"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010106_1",
+          "horseNumber": 1,
+          "name": "ヴァロンブローサ",
+          "sexAge": "牡3",
+          "jockey": "ハマーハン",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023106902/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "葉牡丹賞(1勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010106_2",
+          "horseNumber": 2,
+          "name": "ウィズクィーン",
+          "sexAge": "牝3",
+          "jockey": "坂井",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103417/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/04",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010106_3",
+          "horseNumber": 3,
+          "name": "エアビーアゲイル",
+          "sexAge": "牝3",
+          "jockey": "岩田望",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103342/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/23",
+            "lastResultName": "2歳未勝利",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010106_4",
+          "horseNumber": 4,
+          "name": "カレントゥルーシー",
+          "sexAge": "牡3",
+          "jockey": "松山",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023100553/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/26",
+            "lastResultName": "萩S(L)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010106_5",
+          "horseNumber": 5,
+          "name": "シャドウマスター",
+          "sexAge": "牡3",
+          "jockey": "北村友",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103423/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        },
+        {
+          "horseId": "h_202608010106_7",
+          "horseNumber": 7,
+          "name": "ジュウリョクピエロ",
+          "sexAge": "牝3",
+          "jockey": "◇今村",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023102979/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "ポインセチアS(OP)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010106_6",
+          "horseNumber": 6,
+          "name": "スカイスプレンダー",
+          "sexAge": "牡3",
+          "jockey": "佐々木",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2023103907/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/23",
+            "lastResultName": "2歳新馬",
+            "lastFinish": "5"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010107",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010107",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010107"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010107_1",
+          "horseNumber": 1,
+          "name": "アンジュアルディ",
+          "sexAge": "牝4",
+          "jockey": "横山典",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102954/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010107_2",
+          "horseNumber": 2,
+          "name": "ヴァリオーサ",
+          "sexAge": "牝4",
+          "jockey": "富田",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105711/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010107_3",
+          "horseNumber": 3,
+          "name": "オリジナルファイン",
+          "sexAge": "牝4",
+          "jockey": "吉村",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102906/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/21",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010107_4",
+          "horseNumber": 4,
+          "name": "オーケーエンジェル",
+          "sexAge": "牝4",
+          "jockey": "高杉",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104553/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010107_5",
+          "horseNumber": 5,
+          "name": "キャットテイル",
+          "sexAge": "牝4",
+          "jockey": "☆西塚",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022101678/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010107_6",
+          "horseNumber": 6,
+          "name": "クインズショコラ",
+          "sexAge": "牝4",
+          "jockey": "▲田山",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100159/",
+          "horseBrief": {
+            "lastResultDate": "2025/05/18",
+            "lastResultName": "3歳1勝クラス",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010107_7",
+          "horseNumber": 7,
+          "name": "サンコンクエスト",
+          "sexAge": "牝4",
+          "jockey": "斎藤",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104970/",
+          "horseBrief": {
+            "lastResultDate": "2025/06/28",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010107_8",
+          "horseNumber": 8,
+          "name": "ハギノコラソン",
+          "sexAge": "牝4",
+          "jockey": "岩田望",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100439/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/06",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010107_9",
+          "horseNumber": 9,
+          "name": "メイショウウメゴチ",
+          "sexAge": "牝4",
+          "jockey": "秋山稔",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102768/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/17",
+            "lastResultName": "馬籠宿特別(A)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010107_10",
+          "horseNumber": 10,
+          "name": "ラグナトーレ",
+          "sexAge": "牝4",
+          "jockey": "★河原田",
+          "weight": 51,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106185/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/19",
+            "lastResultName": "甲斐さん優勝おめでと(C)",
+            "lastFinish": "5"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010108",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010108",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010108"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010108_1",
+          "horseNumber": 1,
+          "name": "アーデルリーベ",
+          "sexAge": "牝4",
+          "jockey": "▲森田",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104633/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010108_2",
+          "horseNumber": 2,
+          "name": "イマージョン",
+          "sexAge": "牡4",
+          "jockey": "北村友",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104600/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010108_3",
+          "horseNumber": 3,
+          "name": "インディゴアスール",
+          "sexAge": "牡4",
+          "jockey": "藤懸",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103440/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010108_5",
+          "horseNumber": 5,
+          "name": "ヴェントインコーダ",
+          "sexAge": "牝4",
+          "jockey": "藤岡佑",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103195/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010108_6",
+          "horseNumber": 6,
+          "name": "キーガッツ",
+          "sexAge": "牡4",
+          "jockey": "▲和田陽",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106513/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010108_7",
+          "horseNumber": 7,
+          "name": "グランパリッシュ",
+          "sexAge": "牝5",
+          "jockey": "▲田山",
+          "weight": 53,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100708/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/17",
+            "lastResultName": "馬籠宿特別(A)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010108_18",
+          "horseNumber": 18,
+          "name": "サンライズジュピタ",
+          "sexAge": "牡4",
+          "jockey": "高杉",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103307/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010108_8",
+          "horseNumber": 8,
+          "name": "ジュエルハウス",
+          "sexAge": "牝4",
+          "jockey": "酒井",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103150/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010108_9",
+          "horseNumber": 9,
+          "name": "スカイブルー",
+          "sexAge": "牡4",
+          "jockey": "小崎",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100136/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010108_10",
+          "horseNumber": 10,
+          "name": "スパークルジョイ",
+          "sexAge": "牝5",
+          "jockey": "斎藤",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021101891/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/08",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010108_11",
+          "horseNumber": 11,
+          "name": "ダノンモンテローザ",
+          "sexAge": "",
+          "jockey": "西村淳",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100158/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/15",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010108_12",
+          "horseNumber": 12,
+          "name": "バシリス",
+          "sexAge": "牝4",
+          "jockey": "◇今村",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022106631/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010108_14",
+          "horseNumber": 14,
+          "name": "ペンテリコン",
+          "sexAge": "牝4",
+          "jockey": "武豊",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104644/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010108_15",
+          "horseNumber": 15,
+          "name": "メイショウゴールド",
+          "sexAge": "牡4",
+          "jockey": "団野",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103188/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010108_16",
+          "horseNumber": 16,
+          "name": "ユーヴェリア",
+          "sexAge": "牝5",
+          "jockey": "△柴田裕",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021107278/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "2"
+          }
+        },
+        {
+          "horseId": "h_202608010108_17",
+          "horseNumber": 17,
+          "name": "ロードヴァルカン",
+          "sexAge": "牡4",
+          "jockey": "岩田望",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100660/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/08",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "8"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010109",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010109",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010109"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010109_2",
+          "horseNumber": 2,
+          "name": "イーサンアイ",
+          "sexAge": "牡7",
+          "jockey": "鮫島良",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019100326/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "境港特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010109_10",
+          "horseNumber": 10,
+          "name": "キングオブフジ",
+          "sexAge": "牡5",
+          "jockey": "中井",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106164/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "鳴海特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010109_17",
+          "horseNumber": 17,
+          "name": "グランドプラージュ",
+          "sexAge": "牡4",
+          "jockey": "川田",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105722/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/23",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010109_5",
+          "horseNumber": 5,
+          "name": "クリノフィガロ",
+          "sexAge": "牡5",
+          "jockey": "松山",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021101226/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "赤穂特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010109_9",
+          "horseNumber": 9,
+          "name": "サトノシュトラーセ",
+          "sexAge": "牡5",
+          "jockey": "岩田望",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104810/",
+          "horseBrief": {
+            "lastResultDate": "2024/08/18",
+            "lastResultName": "阿賀野川特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010109_8",
+          "horseNumber": 8,
+          "name": "ジュンラトゥール",
+          "sexAge": "牡5",
+          "jockey": "斎藤",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104039/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "鳴海特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010109_11",
+          "horseNumber": 11,
+          "name": "ショウサンジョージ",
+          "sexAge": "牡4",
+          "jockey": "国分優",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102131/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "鳴海特別(2勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010109_16",
+          "horseNumber": 16,
+          "name": "スーパージョック",
+          "sexAge": "牡4",
+          "jockey": "団野",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103733/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/13",
+            "lastResultName": "蹴上特別(2勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010109_14",
+          "horseNumber": 14,
+          "name": "ドゥラエテルノ",
+          "sexAge": "牡4",
+          "jockey": "武豊",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102722/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/30",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010109_18",
+          "horseNumber": 18,
+          "name": "ブルックリンダンス",
+          "sexAge": "牡4",
+          "jockey": "亀田",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105791/",
+          "horseBrief": {
+            "lastResultDate": "2025/03/15",
+            "lastResultName": "3歳1勝クラス",
+            "lastFinish": "6"
+          }
+        },
+        {
+          "horseId": "h_202608010109_7",
+          "horseNumber": 7,
+          "name": "マッスルバック",
+          "sexAge": "牡5",
+          "jockey": "菱田",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021103809/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/26",
+            "lastResultName": "三鷹特別(2勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010109_13",
+          "horseNumber": 13,
+          "name": "マナエトレ",
+          "sexAge": "牡4",
+          "jockey": "吉村",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022102691/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/24",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "3"
+          }
+        },
+        {
+          "horseId": "h_202608010109_3",
+          "horseNumber": 3,
+          "name": "ワンダフルトゥデイ",
+          "sexAge": "",
+          "jockey": "柴田裕",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019106671/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010110",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010110",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010110"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010110_9",
+          "horseNumber": 9,
+          "name": "インザモーメント",
+          "sexAge": "牡5",
+          "jockey": "吉村",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106635/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/22",
+            "lastResultName": "比叡S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010110_7",
+          "horseNumber": 7,
+          "name": "ウイントレメンデス",
+          "sexAge": "牡5",
+          "jockey": "武豊",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106193/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/22",
+            "lastResultName": "比叡S(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010110_4",
+          "horseNumber": 4,
+          "name": "クレバーテースト",
+          "sexAge": "",
+          "jockey": "ハマーハン",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019107025/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/09",
+            "lastResultName": "イクイノックスM(3勝クラス)",
+            "lastFinish": "10"
+          }
+        },
+        {
+          "horseId": "h_202608010110_2",
+          "horseNumber": 2,
+          "name": "コスモフロイデ",
+          "sexAge": "牡7",
+          "jockey": "和田竜",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019102937/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "オリオンS(3勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010110_8",
+          "horseNumber": 8,
+          "name": "タガノデュード",
+          "sexAge": "牡5",
+          "jockey": "古川吉",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021106548/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "オリオンS(3勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010110_6",
+          "horseNumber": 6,
+          "name": "バッデレイト",
+          "sexAge": "牡5",
+          "jockey": "岩田望",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021102728/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/05",
+            "lastResultName": "大原S(3勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010110_10",
+          "horseNumber": 10,
+          "name": "フクノブルーレイク",
+          "sexAge": "牡4",
+          "jockey": "高杉",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022101329/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "常総S(3勝クラス)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010110_3",
+          "horseNumber": 3,
+          "name": "メイショウゲキリン",
+          "sexAge": "牡7",
+          "jockey": "西塚",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019104092/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "オリオンS(3勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010110_1",
+          "horseNumber": 1,
+          "name": "リッケンバッカー",
+          "sexAge": "牡8",
+          "jockey": "団野",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018103590/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/28",
+            "lastResultName": "サンクフルS(3勝クラス)",
+            "lastFinish": "10"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010111",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010111",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010111"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010111_1",
+          "horseNumber": 1,
+          "name": "エアファンディタ",
+          "sexAge": "",
+          "jockey": "藤岡佑",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2017110138/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/02",
+            "lastResultName": "まほろばS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_18",
+          "horseNumber": 18,
+          "name": "ガイアメンテ",
+          "sexAge": "牡5",
+          "jockey": "北村友",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105808/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "ドンカスターC(3勝クラス)",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010111_11",
+          "horseNumber": 11,
+          "name": "キョウエイブリッサ",
+          "sexAge": "牡6",
+          "jockey": "酒井",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020107001/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "リゲルS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_15",
+          "horseNumber": 15,
+          "name": "キープカルム",
+          "sexAge": "牡5",
+          "jockey": "坂井",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105119/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "富士S(GII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_8",
+          "horseNumber": 8,
+          "name": "クルゼイロドスル",
+          "sexAge": "牡6",
+          "jockey": "武豊",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020101813/",
+          "horseBrief": {
+            "lastResultDate": "2025/08/09",
+            "lastResultName": "関越S(OP)",
+            "lastFinish": "7"
+          }
+        },
+        {
+          "horseId": "h_202608010111_9",
+          "horseNumber": 9,
+          "name": "コレペティトール",
+          "sexAge": "",
+          "jockey": "富田",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020103043/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "障害3歳以上未勝利",
+            "lastFinish": "4"
+          }
+        },
+        {
+          "horseId": "h_202608010111_5",
+          "horseNumber": 5,
+          "name": "ショウナンアデイブ",
+          "sexAge": "牡7",
+          "jockey": "池添",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019105239/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "中日新聞杯(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_23",
+          "horseNumber": 23,
+          "name": "シンフォーエバー",
+          "sexAge": "牡4",
+          "jockey": "団野",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022110114/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/02",
+            "lastResultName": "まほろばS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_17",
+          "horseNumber": 17,
+          "name": "トロヴァトーレ",
+          "sexAge": "牡5",
+          "jockey": "ハマーハン",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105557/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/01",
+            "lastResultName": "ペルセウスS(OP)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_14",
+          "horseNumber": 14,
+          "name": "ファーヴェント",
+          "sexAge": "牡5",
+          "jockey": "松山",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021104893/",
+          "horseBrief": {
+            "lastResultDate": "2025/10/18",
+            "lastResultName": "富士S(GII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_16",
+          "horseNumber": 16,
+          "name": "ブエナオンダ",
+          "sexAge": "牡5",
+          "jockey": "川田",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105454/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/29",
+            "lastResultName": "キャピタルS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_3",
+          "horseNumber": 3,
+          "name": "ホウオウラスカーズ",
+          "sexAge": "牝8",
+          "jockey": "木幡巧",
+          "weight": 54,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018103535/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/20",
+            "lastResultName": "ターコイズS(GIII)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_12",
+          "horseNumber": 12,
+          "name": "マサノカナリア",
+          "sexAge": "牝5",
+          "jockey": "松若",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100019/",
+          "horseBrief": {
+            "lastResultDate": "2025/05/18",
+            "lastResultName": "ヴィクトリアマイル(GI)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_4",
+          "horseNumber": 4,
+          "name": "マテンロウオリオン",
+          "sexAge": "牡7",
+          "jockey": "横山典",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019100965/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/29",
+            "lastResultName": "キャピタルS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_2",
+          "horseNumber": 2,
+          "name": "ヤマニンサンパ",
+          "sexAge": "牡8",
+          "jockey": "亀田",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018102020/",
+          "horseBrief": {
+            "lastResultDate": "2025/09/28",
+            "lastResultName": "ポートアイランドS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_20",
+          "horseNumber": 20,
+          "name": "ヤンキーバローズ",
+          "sexAge": "牡4",
+          "jockey": "岩田望",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022103051/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "リゲルS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_7",
+          "horseNumber": 7,
+          "name": "ラケマーダ",
+          "sexAge": "牡6",
+          "jockey": "高杉",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020101784/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/29",
+            "lastResultName": "キャピタルS(L)",
+            "lastFinish": "11"
+          }
+        },
+        {
+          "horseId": "h_202608010111_21",
+          "horseNumber": 21,
+          "name": "ランスオブカオス",
+          "sexAge": "牡4",
+          "jockey": "吉村",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104401/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "リゲルS(L)",
+            "lastFinish": "11"
+          }
+        }
+      ]
+    },
+    {
+      "raceId": "202608010112",
+      "date": "2026-01-04",
+      "course": "中山",
+      "grade": null,
+      "name": "netkeiba",
+      "distance": null,
+      "surface": null,
+      "turn": "右",
+      "going": null,
+      "sources": {
+        "sp": "https://race.sp.netkeiba.com/race/shutuba.html?race_id=202608010112",
+        "pc": "https://race.netkeiba.com/race/shutuba.html?race_id=202608010112"
+      },
+      "entries": [
+        {
+          "horseId": "h_202608010112_1",
+          "horseNumber": 1,
+          "name": "アドマイヤジェイ",
+          "sexAge": "牡7",
+          "jockey": "団野",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2019105487/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "尾張特別(2勝クラス)",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_11",
+          "horseNumber": 11,
+          "name": "クイックバイオ",
+          "sexAge": "牝5",
+          "jockey": "田口",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021105374/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/28",
+            "lastResultName": "フォーチュンC(2勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010112_2",
+          "horseNumber": 2,
+          "name": "クイーンズデイ",
+          "sexAge": "牝4",
+          "jockey": "国分恭",
+          "weight": 55,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022100962/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/13",
+            "lastResultName": "3歳以上1勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_12",
+          "horseNumber": 12,
+          "name": "サダメ",
+          "sexAge": "牝5",
+          "jockey": "横山典",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021103862/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "尾張特別(2勝クラス)",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_3",
+          "horseNumber": 3,
+          "name": "シホノペルフェット",
+          "sexAge": "牡4",
+          "jockey": "松山",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104627/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/14",
+            "lastResultName": "甲東特別(2勝クラス)",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_4",
+          "horseNumber": 4,
+          "name": "スイミーユニバンス",
+          "sexAge": "牝6",
+          "jockey": "和田竜",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2020103632/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/07",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_5",
+          "horseNumber": 5,
+          "name": "タイキヴァンクール",
+          "sexAge": "牡5",
+          "jockey": "小崎",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021103171/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "尾張特別(2勝クラス)",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_6",
+          "horseNumber": 6,
+          "name": "ネーブルオレンジ",
+          "sexAge": "牝4",
+          "jockey": "▲和田陽",
+          "weight": 52,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022105431/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/02",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_7",
+          "horseNumber": 7,
+          "name": "ブルクトーア",
+          "sexAge": "牡4",
+          "jockey": "ハマーハン",
+          "weight": 57,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2022104694/",
+          "horseBrief": {
+            "lastResultDate": "2025/11/16",
+            "lastResultName": "3歳以上2勝クラス",
+            "lastFinish": "8"
+          }
+        },
+        {
+          "horseId": "h_202608010112_8",
+          "horseNumber": 8,
+          "name": "ホウオウサンデー",
+          "sexAge": "牡8",
+          "jockey": "北村友",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018105047/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/28",
+            "lastResultName": "フォーチュンC(2勝クラス)",
+            "lastFinish": "9"
+          }
+        },
+        {
+          "horseId": "h_202608010112_9",
+          "horseNumber": 9,
+          "name": "メイショウカイト",
+          "sexAge": "牝8",
+          "jockey": "高杉",
+          "weight": 56,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2018103368/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "尾張特別(2勝クラス)",
+            "lastFinish": "12"
+          }
+        },
+        {
+          "horseId": "h_202608010112_10",
+          "horseNumber": 10,
+          "name": "ララマセラシオン",
+          "sexAge": "牡5",
+          "jockey": "佐々木",
+          "weight": 58,
+          "odds": null,
+          "predictionScore": 0,
+          "horseDbUrl": "https://db.netkeiba.com/horse/result/2021100935/",
+          "horseBrief": {
+            "lastResultDate": "2025/12/21",
+            "lastResultName": "尾張特別(2勝クラス)",
+            "lastFinish": "12"
+          }
+        }
+      ]
+    }
+  ]
+}
